@@ -1,0 +1,188 @@
+--- 
+title: "Handboek Itembanken"
+subtitle: "In 5 stappen naar een itembank"
+author: ["SURF,", "Versnellingsplan"]
+date: "Updated: `r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+# bibliography: [book.bib, packages.bib]
+# biblio-style: apalike
+# link-citations: yes
+github-repo: Werkgroep-Toetsen-Op-Afstand/Handboek-Itembanken
+description: ""
+always_allow_html: true
+bibliography: "bibliography.bib"
+biblio-style: "apalike"
+link-citations: true
+---
+
+# Introductie
+
+## Inleiding 
+Digitale itembanken zijn een prachtige tool om de kwaliteit van toetsen te laten toenemen en de kosten te laten dalen. Wie gezamenlijk toetsvragen ontwikkelt, stemt doelen en processen af. Er is meer expertise en tijd beschikbaar per item (toetsvraag) voor ontwikkeling en kwaliteitscontrole. Dit alles komt de kwaliteit van de toetsen ten goede. Hergebruik van items kan de kosten doen dalen. 
+
+De coronacrisis heeft daarnaast ook laten zien dat itembanken een rol spelen in situaties waarbij het online toetsen risico’s met zich meebrengt. Met name in als toetsvragen gaan uitlekken of dat studenten ongeoorloofd samenwerken tijdens het maken van de toets. Itembanken bieden de mogelijkheid om deze risico’s te verminderen. 
+
+Het ontwikkelen, beheren en onderhouden van itembanken vraagt om goed project- management. Met deze uitgave willen we laten zien hoe je een digitaal systeem opzet om items uit te wisselen met collega’s van binnen en buiten de instelling. In dit hand- boek bundelen we de kennis en kunde die instellingen, samenwerkingsverbanden van instellingen en SURF over dit onderwerp hebben opgedaan. Het helpt instellingen op weg die hun voordeel willen behalen met digitale itembanken. Het handboek bestaat uit een introductie, een stappenplan en een verdiepend deel. 
+
+### Voor wie is deze uitgave? 
+Het handboek is bedoeld voor iedereen die een rol vervult in de processen rondom de ontwikkeling, het beheer en het onderhoud van een itembank en de items.   Bijvoorbeeld:  
+
+* Docenten die items beter willen ordenen of willen ontwikkelen en uitwisselen met een collega 
+* Onderwijsadviseur die docenten ondersteunt of die trekker is van het inrichten van een itembank 
+* Een samenwerkingsverband dat gezamenlijk toetsmateriaal wil uitwisselen of gezamenlijk toetsen wil uitzetten 
+* Een landelijk overleg dat de kwaliteit van toetsen wil verhogen 
+* Functioneel beheerders van een toetssysteem dat wordt gebruikt voor een itembank  
+
+### Scope 
+Het handboek richt zich op het ontwikkelen, beheren en gebruiken van itembanken binnen een opleiding, binnen één instelling, instellingsoverstijgend, binnen een bepaald domein of zelfs landelijk. Uitgangspunt is dat de processen in de basis hetzelfde zijn. Het handboek geeft geen uitgebreide beschrijving van bestaande itembanken of toetssystemen. Hiervoor kun je terecht in de SURF thema-uitgave [Toets-en vragenbanken in het onderwijs](https://www.surf.nl/thema-uitgave-toets-en-vragenbanken-in-het-onderwijs).  
+
+Het ontwikkelen van itembanken kan onderdeel zijn van een groter implementatie- traject van digitaal toetsen bij instellingen. Voor het implementeren van digitaal toetsen verwijzen wij naar enkele SURF- publicaties, zoals de [handreiking Beleid voor digitaal toetsen](https://www.surf.nl/kennisbank/2016/handreiking-beleid-voor-digitaal-toetsen.html), het [stappenplan Digitaal toetsbeleid schrijven](https://www.surf.nl/kennisbank/2016/stappenplan-digitaaltoetsbeleid-schrijven.html) en het [werkboek Veilig toetsen](https://www.surf.nl/kennisbank/2016/werkboek-veilig-toetsen.html).  
+
+In dit handboek gaan we vooral in op het ontwikkelen van items (het itemontwikkelproces) en het beheer van items in een itembank. Een goede itembank vormt de basis voor goede toetsen. Over hoe je op basis van zo’n itembank goede toetsen ontwikkelt in een toetssysteem, zijn andere bronnen beschikbaar, zoals Toetsen in het hoger onderwijs @van2017toetsen.
+
+### Verantwoording
+Deze uitgave is een bijgewerkte versie van de uitgave uit 2018. De special interest group (SIG) Digitaal toetsen heeft de uitgave – mede in het licht van de ervaringen tijdens de coronacrisis van 2020/2021 – kritisch bekeken, aangevuld en geactualiseerd.  De oorspronkelijke  publicatie is tot stand gekomen in nauwe samenwerking met itembank-experts uit diverse instellingen, de SIG Digitaal Toetsen, Cito, 10voordeLeraar en Prove2Move. Het handboek is gebaseerd op de ervaringen van de betrokken experts met het ontwikkelen van itembanken. Verder hebben we gebruikgemaakt van verzameld materiaal van onder andere SURF en beschikbare literatuur op dit gebied.  
+
+Zie het colofon voor een overzicht van alle betrokkenen die hebben bijgedragen aan dit handboek. Neem gerust contact op met de auteurs en/of de deskundigen die een inhoudelijke bijdrage hebben geleverd aan het handboek voor meer informatie.  
+
+## Definities en begrippen
+Voor het gebruik van dit handboek is een goed begrip van een aantal termen essentieel. We beschrijven kort de componenten van een digitaal toetssysteem en laten zien hoe ze zich verhouden tot de itembank.  
+
+### Wat is een itembank?
+Een itembank is een verzameling van items ofwel vragen (in het vervolg van dit handboek noemen we ze items). Een itembanksysteem is het digitale systeem waarin de verzameling van items is opgeslagen en waarmee ze beheerd kunnen worden. Een itembanksysteem kan meerdere itembanken bevatten. Als wij in dit werkboek spreken over itembank bedoelen we het itembanksysteem (de digitale itembank).  
+
+::: {.tip}
+
+**Definitie**  
+Een **itembank** is een verzameling van items voor een bepaald toetsdoel. Een itembank heeft daarvoor een bepaalde ordening, meestal op basis van metadata en in de vorm van een hiërarchische structuur.  
+Een **itembanksysteem** is het digitale systeem waarin de verzameling van items is opgeslagen en waarmee ze beheerd kunnen worden. Een itembanksysteem kan verscheidene itembanken bevatten.  
+
+:::
+
+In de itembank worden de vragen logisch ingedeeld. Er vindt versiebeheer plaats en er kunnen allerlei metadata worden opgeslagen over de inhoud, het vraagtype, het niveauen over andere kenmerken. Je kunt er ook psychometrische gegevens in opslaan, zoals de moeilijkheidsgraad en het discriminerend vermogen van items. Soms draaien de programma’s van een itembanksysteem lokaal op een computer. Andere itembanken bestaan uit internetomgevingen. De database en de applicatie worden vanuit de cloud benaderd. Verschillende mensen kunnen tegelijkertijd werken in zo’n cloudsysteem.  
+
+::: {.tip}
+
+**Nice to know**  
+**Waarom worden 'toetsvragen' door toetsdeskundigen eigenlijk vaak items genoemd?**  
+In de jaren '30 werd er in de Verenigde Staten gewerkt met gestandaardiseerde toetsen en rudimentaire bestanden met vragen. Al snel ontstond een beroepsgroep met bijbehorend beroepsjargon. 'Test questions' werd 'Test items'. In Nederland hebben we dit woordgebruik overgenomen en 'vernederlandst' naar 'ietums' in plaats van 'aitums'.  
+
+:::
+
+### De plek van een itembank binnen het digitale toetssysteem
+Met een digitaal toetssysteem bedoelen we software die het digitale toetsproces faciliteert. We maken onderscheid tussen een aantal kerncomponenten: auteurs- omgeving, itembank, afspeelomgeving en analysetool. Deze componenten bespreken we aan de hand van de toetscyclus. Niet alle stappen uit de toetscyclus worden ondersteund door digitale toetssystemen. In figuur \@ref(fig:toetscyclus) is te zien hoe de componenten van een digitaal toetssysteem aansluiten op de toetscyclus.
+
+```{r toetscyclus, echo=FALSE, fig.cap="Componenten van digitale toetssystemen afgebeeld op de toetscyclus.", out.width="60%"}
+knitr::include_graphics("images/ToetsCyclus.svg")
+```
+
+De *itembank* vormt de centrale component waarin de items worden opgeslagen. De bewerking en het afspelen van de items vindt plaats in andere systemen, die vervolgens de resultaten teruggeven aan de itembank. Bij de volgende onderdelen van de toetscyclus speelt de itembank een rol:  
+
+Het **ontwerp** van de toets (ook wel toetsspecificatie) gaat over aspecten als het doel van de toets, te toetsen onderdelen, de keuze voor formatief of summatief toetsen en ‘wijze van toetsing’. In het ontwerp worden dus nog geen items gemaakt.  
+
+Een toets wordt samengesteld vanuit een verzameling items. Hiervoor wordt meestal een specificatietabel gebruikt, ook wel toetsmatrijs of blauwdruk van de toets ge- naamd. Hierin is vastgelegd hoeveel items, welke vraagtypen en welke onderwerpen van welke aard, kennis, of toepassing in de toets komen.  
+
+De **ontwikkeling** (constructie) van de items vindt plaats in de auteursomgeving van een toetssysteem. De antwoorden in geval van gesloten vragen worden hierin opgenomen en soms ook die van de open vragen.  
+
+Toetssoftware biedt voor online  **toetsafname**  een  afspeelomgeving  aan. Deze omgeving controleert de identiteit van de student door middel van een inlogproces, biedt de student een toets aan en slaat de antwoorden van de student op.  
+
+Het **nakijken** van de toets hangt af van de gekozen vraagtypen. Antwoorden van gesloten vragen worden doorgaans zonder menselijke tussenkomst beoordeeld en gescoord. De itemontwikkelaar (de docent) heeft hierbij vooraf het correcte antwoord ingegeven. Open vragen moeten worden nagekeken, waarbij systemen bijvoorbeeld ‘blind’ nakijken mogelijk maken en ‘vraag-voor-vraag’ nakijken, eventueel met behulp van ondersteunende software.  
+
+Sommige softwarepakketten bevatten een analysetool voor **toetsanalyse**, maar analyseren kan ook met behulp van een download van een gegevensbestand en een bewerking hierna in bijvoorbeeld Excel of SPSS. Toetsanalyse is veelal gericht op het bepalen van de betrouwbaarheid van toetsen en het opsporen van items die van onvoldoende kwaliteit zijn.  
+
+### Belangrijke begrippen
+**Formatief toetsen**: Toetsing waarbij het leren van de toets voorop staat, meestal zonder cijfers, vaak met feedback per toetsvraag of toets. Door met toetsopgaven aan de slag te gaan en te leren van fouten en feedback wordt het leerproces gestimuleerd. Er is geen sprake van een minimaal te behalen niveau.  
+
+**Psychometrische gegevens**: Deze data zeggen iets over de moeilijkheidsgraad van vragen en geven aan in welke mate ze onderscheid maken of een student de stof wel of niet beheerst. Psychometrische gegevens kunnen worden opgeslagen in de itembank bij het item waarop ze betrekking hebben.  
+
+**Summatief  toetsen**:  Toetsing waarbij het zo nauwkeurig mogelijk meten van een bepaald niveau van vaardigheid voorop staat. De behaalde score wordt gebruikt voor formele toekenning van een behaald studieresultaat, zoals studiepunten of een diploma.  
+
+**Toetskwaliteit**: Het geheel van aspecten rondom toetsing dat de mate van transparantie, betrouwbaarheid en validiteit van toetsing behelst. Transparantie neemt bijvoorbeeld toe als er inzicht is in de wijze waarop items worden gemaakt. Betrouwbaarheid neemt bijvoorbeeld toe als items beter onderscheid maken tussen studenten met verschillende mate van beheersing van de stof of vaardigheid. Validiteit neemt toe als de items beter en vollediger de beoogde kennis of vaardigheid meten.  
+
+::: {.tip} 
+
+**Samenwerkingsverbanden**  
+In het handboek refereren we naar een aantal Nederlandse instellingsoverstijgende itembanken. We hebben dankbaar gebruik gemaakt van hun kennis en ervaring. Het gaat om de volgende samenwerkingsverbanden:  
+
+**[deKennistoetsenbank MBO <i class="fas fa-external-link-alt"></i>](https://www.prove2move.nl/dekennistoetsenbank/)**  
+Voor de MBO-opleidingsprofielen Zorg en Welzijn, Maatschappelijk Werk en Verpleegkunde/Verzorgende IG heeft deKennistoetsenbank MBO van Prove2Move itembanken beschikbaar van duizenden items elk. DeKennistoetsenbank MBO is een methode-overstijgend digitaal systeem dat leren ondersteunt met goede kennisvragen. Prove2move is een coöperatie van de drie ROC's (Landstede, Deltion College en ROC van Twente).   
+
+**[IVTG <i class="fas fa-external-link-alt"></i>](https://www.ivtg.nl)**  
+De interuniversitaire VoortgangsToets Geneeskunde (iVTG) is een meetinstrument om de kennisprogressie van studenten geneeskunde gedurende hun studie te meten. Het betreft een interuniversitair samenwerkingsverband, bestaande uit zes UMC's.
+
+**[10voordeleraar <i class="fas fa-external-link-alt"></i>](https://www.10voordeleraar.nl)**  
+Het programma 10voordeLeraar is onder regie van de Vereniging Hogescholen ontwikkeld en biedt landelijke kennisbases, verplichte kennistoetsen en een peer-review-systematiek voor alle lerarenopleidingen. 
+
+**[Sharestats <i class="fas fa-external-link-alt"></i>](https://www.sharestats.nl)**  
+Het doel van dit project is om een vrij toegankelijk uitgebreide verzameling leermaterialen over statistiek te bieden. Door meta-datering van het leermateriaal kunnen docenten uit de vakcommunity naar behoefte een selectie van statistiekopgaven kiezen en gebruiken in het eigen onderwijs. De vijf partners van het projectteam (UvA Psychologie en Pedagogische en Onderwijswetenschappen, VU Sociale Wetenschappen (FSW), VU Gedrags- en Bewegingswetenschappen (FGB), UU Sociale Wetenschappen en EUR Psychologie/Pedagogiek) vormen de kern van de vakcommunity.  
+
+:::
+
+## In 5 stappen naar een itembank
+In de praktijk ontstaan itembanken soms zonder bewust plan. Een uitprobeersel op kleine schaal groeit uit tot iets omvangrijks. Een dergelijke aanpak brengt het risico met zich mee dat de itembankontwikkeling in een later stadium stagneert, bijvoorbeeld door tijdgebrek of personele wisselingen. Het advies in deze is ‘bezint eer ge begint’. Werk volgens beheerste stappen. Te snel gaan heeft mogelijk later consequenties voor het draagvlak of kan zelfs het project doen mislukken.  
+
+Wij onderscheiden vijf stappen voor het ontwikkelen en gebruiken van een itembank. Binnen iedere stap moet je voor een aantal zaken zorgen. Deze zaken zullen soms gelijktijdig om aandacht vragen, of in een andere volgorde dan hier beschreven. In elke stap wordt het resultaat, een in gebruik genomen itembank, concreter gemaakt; er wordt van grof naar fijn gewerkt.  
+
+Deel 2 van het handboek, het Stappenplan, neemt je mee door de verschillende stappen. Soms heb je daarvoor theoretische kennis nodig. Daarom verwijzen we regelmatig naar deel 3 van het handboek, de Verdieping. Dit deel bevat meer achtergrondinformatie voor het opzetten van een itembank.  
+
+::: {.tip}
+
+**Tip**  
+Geen tijd om het hele handboek door te nemen? Hou dan in ieder geval de succesfactoren voor het ontwikkelen, beheren en gebruiken van een itembank uit hoofdstuk 4 bij de hand.  
+
+:::
+
+### Stappenplan  
+
+::: {.stappenplan}
+
+1. <div class="nr stap">1</div> <div class="stap">Voorbereiding</div>
+    + Formuleer het doel en onderzoek de haalbaarheid van de itembank.  
+    + Oriënteer je op toetssystemen en uitwisselbaarheid.  
+    + Verdiep je in omvang en vraagreproductie.  
+    + Maak een eerste kosten- en batenanalyse.  
+2. <div class="nr stap">2</div> <div class="stap">Plan</div>
+    * Maak een plan van aanpak, waarin je beschrijft:  
+    * het doel;  
+    * het resultaat (wat hebben we als we klaar zijn?);  
+    * hoe je denkt dit te realiseren.  
+3. <div class="nr stap">3</div> <div class="stap">Ontwerp</div>
+    * Orden de vragen.  
+    * Organiseer de processtappen en bepaal rollen en rechten.
+    * Stel kwaliteitseisen vast en check of het systeem hieraan voldoet.  
+    * Kies een toetssysteem.  
+    * Leg afspraken over omvang en vraagproductie vast.  
+    * Regel de financiën.  
+    * Zorg voor een juridische verankering van het project.  
+    * Organiseer het beheer van de itembank.  
+4. <div class="nr stap">4</div> <div class="stap">Pilot</div>
+    * Ontwikkel de items.  
+    * Richt de itembank in en probeer uit.  
+5. <div class="nr stap">5</div> <div class="stap">Realisatie</div>
+    * Neem de itembank in gebruik.  
+    * Zorg voor een toekomstbestendige itembank.  
+    
+:::
+
+## Succesfactoren  
+Het ontwikkelen en gebruiken van een itembank kan complex zijn. De onderstaande succesfactoren leveren een belangrijke bijdrage aan de levensvatbaarheid van een itembank. Neem ze in acht, ook bij een relatief eenvoudige samenwerking. Deze factoren lopen als een rode draad door het handboek. 
+
+:::{.bullets_spaced}
+
+1. Bezint eer ge begint: neem de tijd bij de start, schat de haalbaarheid goed in  en vind de balans tussen een projectmatige aanpak en laten ontstaan. Kies een werkwijze die past bij jouw situatie. 
+2. Stel een opdrachtgever aan en zorg dat het eigenaarschap van begin af aan goed belegd is. Zonder een opdrachtgever of afspraken over eigenaarschap is de kans op mislukking groot. 
+3. Bepaal voor het ontwikkelen van de itembank welke stappen je wilt doorlopen en welke resultaten je per stap wilt bereiken. 
+4. Bepaal het doel van je itembank en geef de itembank een duidelijke rol in het onderwijs. Houd hieraan vast. Draag deze visie regelmatig uit. 
+5. Wees reëel en manage verwachtingen: de ideale itembank ontstaat niet in één dag en misschien zelfs wel helemaal nooit. De ideale inrichting kun je niet vanachter je bureau bedenken. Durf dingen uit te proberen. 
+6. Kijk om je heen, er is al veel ontwikkeld. Vind het wiel niet opnieuw uit. Betrek deskundigen. 
+7. Draagvlak is essentieel. 
+    * Docenten die elkaar kennen en vertrouwen en die het doel van de itembank delen, zijn een randvoorwaarde voor succes; steek energie in het leren kennen van elkaar.
+    * Zorg voor goede begeleiding en ondersteuning van docenten. 
+    * Het bestaan van een netwerk van mensen die al samenwerken en kennis uitwisselen vergroot de kans op succes aanzienlijk. 
+8. Begin klein met de itembank en probeer verschillende inrichtingen en metadatamogelijkheden uit. Blijf aanpassen totdat de juiste inrichting en werkwijze is gevonden. Houd het eenvoudig en dicht bij de dagelijkse praktijk. 
+9. Onderschat de aard en omvang van de werkzaamheden en/of het project niet. Het is moeilijke materie om te doorgronden. Gedrag en werkwijzen van mensen veranderen gaat niet vanzelf. 
+10. Wees je bewust van technische beperkingen als je over instellingsgrenzen heen aan een itembank werkt. 
+
+::::

@@ -1,0 +1,225 @@
+# Stappenplan
+
+## Stap 1: Voorbereiding
+Begin met het formuleren van het doel van de itembank. Denk na over de rol van de itembank binnen het onderwijs, de mogelijke fasering en het eigenaarschap van de itembank. Wie heb je nodig? Hoe kun je stapsgewijs een itembank ontwikkelen die meerwaarde heeft voor het onderwijs en langere periode ‘in de lucht’ blijft? **[Zie ook H3.1](#waarom-samenwerken-aan-een-itembank).**
+
+Ga na of het ontwikkelen van een itembank past binnen het beleid van de instelling en of het de onderwijsvisie ondersteunt. Past het binnen het digitale toetsbeleid? Welke kwalitatieve en kwantitatieve doelen wil jouw instelling met digitaal toetsen bereiken? Zorg dat je het doel van jouw itembank laat passen binnen dit beleid. Dit maakt de itembank kansrijker. Om een idee uit te werken zal er commitment nodig zijn in de vorm van tijd en geld. Iedere instelling regelt dit anders. Vaak gaat het om een bestuurlijk traject, waarbij diverse mensen praten/lobbyen op operationeel, tactisch en strategisch niveau. Er zijn meestal richtlijnen en procedures beschikbaar voor het opstarten van een project binnen een instelling. Denk bijvoorbeeld aan innovatiegelden die via onderwijsprijzen of stimuleringsmaatregelen beschikbaar kunnen komen. Mogelijk moet je bijvoorbeeld een startnotitie of projectopdracht formuleren om de middelen te regelen. Het kan zijn dat er al wordt gevraagd naar een initiële inschatting van de kosten ten opzichte van de baten.
+
+Het is aan te raden om tijdens de voorbereiding ten minste de volgende zaken te bepalen en te beschrijven:
+
+*    De huidige situatie en de gewenste situatie.
+*    Het doel van de itembank. Waarom is het een goed idee? Wat hebben studenten eraan? Maak duidelijk hoe de itembank zich verhoudt tot andere beleids- documenten, bijvoorbeeld het digitaal toetsbeleid en het onderwijsbeleid.
+*    Welk resultaat ligt er als het project klaar is? Hoe ziet het onderhoud en beheer er globaal uit?
+*    Vanuit welke theorie worden de items ontwikkeld? In de voorbereiding bedenk je op basis van welke theorie je aan de slag gaat: de klassieke testtheorie (KTT) of de item response theorie (IRT). Welke vraagtypes wil je gebruiken en hoe wordt er met feedback omgegaan? Keuzes over feedback en vraagtypes zijn van invloed op het eindresultaat. Zie ook **[§ 3.6.4](#feedback-en-vraagtypes)** en **[§ 3.7.3](#toetsgegevens)**.
+*    Hoeveel tijd, geld en doorlooptijd is er nodig voor dit project?
+*    Bepaal de haalbaarheid van het project: voer eventueel een apart *haalbaarheidsonderzoek* of *vooronderzoek* uit.
+*    Bepaal wie de opdrachtgever en/of de uiteindelijke eigenaar van de itembank is. Stel vast wie je nodig hebt om de itembank te ontwikkelen. Zie ook **[H3.5](#componenten-en-processtappen)**.
+
+### Haalbaarheidsonderzoek
+
+Een mogelijke tussenstap in de voorbereiding van je itembankproject is een onder- zoek naar de haalbaarheid ervan. Hierin werk je één of meerdere opties voor het inrichten van een itembank uit. Kies welke optie het beste is voor jouw situatie. Kijk naar de volgende aspecten: 
+
+* Inhoud: welke overeenkomsten zijn er tussen de items die je in de itembank wilt opnemen? Is er een gezamenlijke ordening te ontdekken? In hoeverre denken de docenten dat zij consensus kunnen bereiken over de inhoud van het vak en de items? Je moet dit weten om je aanpak te bepalen. Bij uiteenlopende meningen is er meer tijd nodig voor dit onderdeel. Zie ook **[H2.3](#stap-3-ontwerp)**.
+* Kwaliteit: wat is de kwaliteit van de toetsen eigenlijk op dit moment? Wat zijn de p-waarden en rit-waarden? Hoe acceptabel is dit? Welke verbeterslag willen we realiseren met de itembank? 
+    * De keuze voor het kopen of zelf ontwikkelen van de items. 
+        * Wat is er al op de markt aan itembanken? Check oplossingen buiten de instelling, bijvoorbeeld het inkopen van items van een externe commerciële partij. 
+        * Is er een mogelijkheid om aan te sluiten bij een bestaand samenwerkingsverband dat al een itembank ontwikkelt? 
+* De beoogde omvang van de itembank. 
+    * Hoeveel items zijn er al binnen de instelling die kunnen worden gebruikt? 
+    * Hoeveel items heb je naar verwachting nodig? Zie ook **[H3.3](#omvang-van-de-itembank)**.
+* Techniek (toetssystemen en itembanksystemen): Ga na wat er al beschikbaar is binnen de instelling aan itembanksystemen en itembanken die je kunt gebruiken. Zoek de afdeling op die verantwoordelijk is voor het beheer en gebruik van ICTO- applicaties en specifiek de toetsapplicaties. Moet er iets door de instelling worden aangeschaft? Zie ook **[H3.2](#technologie-systemen)**.
+* Organisatie: is er voldoende draagvlak voor de optie(s)? Ga in gesprek met organisaties die ervaring hebben met het inrichten van itembanken. 
+* Financiën: zet per optie de kosten en baten op een rij en neem de volgende zaken in acht. 
+    * Kan er voldoende tijd en geld worden vrijgemaakt voor het ontwikkelen van de itembank? 
+    * In hoeverre zal de itembank de prijs-kwaliteitverhouding van items kunnen verbeteren? 
+    * Kun je projectgeld of subsidiegeld aantrekken? Zie ook **[H3.4](#kosten-en-baten)**.
+    
+#### Afronding voorbereidingsstap
+Verwerk alle gegevens tot een opdrachtformulering en verkrijg goedkeuring van je opdrachtgever om een plan van aanpak te maken. 
+
+::: {.tip}
+
+**Wat heb je aan het eind van deze stap?**
+
+* Resultaat: inzicht in het doel, de haalbaarheid en de globale aanpak van het idee.
+* Een *go/no go* van je opdrachtgever voor de volgende stap.
+
+::::
+
+## Stap 2: Plan van aanpak 
+In deze stap leg je vast hoe de itembank eruitziet aan het eind van het project. Je maakt een plan van aanpak om dit resultaat te bereiken. 
+
+Stel jezelf de vraag: wat hebben we als we klaar zijn? Het antwoord is afhankelijk van het doel dat de itembank zal vervullen in het onderwijs. Formuleer met de betrok- kenen eisen en wensen ten aanzien van de itembank. Eisen moeten verplicht worden gerealiseerd; wensen wil men graag realiseren, maar zijn niet noodzakelijk om tot een goed resultaat te komen. In je plan van aanpak zet je beide op een rij. 
+
+Het kan zijn dat een organisatie projectmatig werken faciliteert en dat er wordt gewerkt aan de hand van een projectmanagement-methode, zoals Prince II. Mogelijk zijn er zelfs projectleiders beschikbaar voor het trekken van grotere projecten. In dat geval zijn er binnen de instelling procedures gangbaar rondom werkwijze, fasering en besluitvorming. Check wat er beschikbaar is binnen de instelling over projectmatig werken. Grijp waar mogelijk terug op standaarddocumenten, zoals een sjabloon voor een plan van aanpak. Geef de stappen uit het stappenplan hierin een plek. 
+
+Zorg ervoor dat je plan van aanpak ten minste de volgende zaken zo gedetailleerd mogelijk beschrijft: 
+
+* Het doel en resultaat. 
+* Hoe je tot het resultaat wilt komen. 
+* De rol van opdrachtgever en wie dit op zich neemt. Idealiter is dit de toekomstige eigenaar van de itembank. Plan momenten in om met hem of haar de aanpak en plannen te bespreken. Stel vast waar je zijn of haar hulp nodig hebt. 
+* Bedenk wie je wanneer tijdens het project en erna nodig hebt. Beschikken zij over de juiste kennis en kunde? Denk aan de volgende expertises: opdrachtgever, pro- jectleider, toetsdeskundige, psychometrist, functioneel beheerder, jurist en docenten. 
+* Bepaal hoe je draagvlak creëert. Hoe ga je ervoor zorgen dat de itembank daad- werkelijk wordt gebruikt? Hoe kun je docenten en studenten ertoe aanzetten om de nieuwe werkwijzen in de praktijk te brengen? Ga hierover met ze in gesprek. Bedenk hoe je het belang van de itembank ook op de tactische en strategische agenda’s krijgt. Wie zijn de belanghebbenden? 
+* Kosten en baten: geef een inschatting van wat het ontwikkelen van de itembank kost en wat het de komende jaren zal opleveren. 
+* Kwaliteit: hoe kom je tot een itembank van voldoende kwaliteit? 
+* Planning: welke fasering heb je voor ogen? Welke doorlooptijd heb je nodig? 
+* Bedenk hoe je het gestelde doel behaalt en hoe je het proces om daar te komen kunt beheersen en zo nodig bijstellen. 
+
+::: {.tip}
+
+**Wat heb je aan het eind van deze stap?**
+
+Het resultaat van deze stap is een **plan van aanpak**, waarin het doel, het resultaat en hoe je dit denkt te realiseren zo concreet mogelijk zijn gedefinieerd. Laat het plan van aanpak goedkeuren door de opdrachtgever. Door het plan van aanpak is de benodigde tijd van mensen afgestemd met leidinggevenden. Zo zorg je voor commitment en draagvlak.
+
+::::
+
+## Stap 3: Ontwerp
+
+Aan het einde van deze stap ligt er een ontwerp dat aan de opdrachtgever duidelijk maakt wat hij krijgt. Daarbij weten de medewerkers van de volgende stap, het testen in een pilot, wat er moet worden gemaakt. 
+
+In het ontwerp worden de volgende zaken bepaald en vastgelegd: 
+
+* Ordening van items 
+* Itemontwikkelproces 
+* Itemkwaliteit 
+* Systeem 
+* Productie en planning 
+* Financiën 
+* Juridische aandachtspunten 
+* Beheer 
+
+Leg de afspraken die worden gemaakt per aandachtspunt duidelijk vast. De resultaten van elk onderdeel tellen op naar het totale ontwerp van de itembank en hangen dus ook met elkaar samen. 
+
+### Ordening van items
+
+Breng in kaart in welke mate de vakgebieden overeenkomen. Laat de betrokken do- centen bepalen in hoeverre zij op dezelfde manier naar een vak of vakgebied kijken. Ze gaan met elkaar de diepte in om vast te stellen wat er op onderwerpniveau en vraag- constructie-niveau in de itembank wordt opgenomen. Deze fase is moeilijk, omdat er vaak verschillen zijn. Het is zaak om pragmatisch te blijven. Accepteer dat er mogelijk wat aanpassingen in het onderwijs noodzakelijk zijn, bijvoorbeeld door het kiezen van een nieuwe methode of het aanpassen van het gebruik van specifieke namen voor variabelen of concepten. 
+
+* Vragen die aan de orde komen: Hoe schrijf je de items uit? Wat vind je relevant of opleidingsspecifiek? Hoe zien de toetsmatrijzen eruit? 
+* Het kan zijn dat er verschillen zijn op notatie-of illustratieniveau. Hoe ga je hiermee om? 
+* Bepaal welke hiërarchische structuur de itembank krijgt en welke metadata wenselijk zijn. Zie ook **[H3.6](#de-ordening-van-een-itembank)**.
+
+### Itemontwikkelproces
+
+* Bepaal wie welke stappen in het itemontwikkelproces doorloopt om de toetskwaliteit te borgen. 
+* Stel een indicatie op voor de verwachte ontwikkeltijd per item. 
+* Kijk naar de huidige processtappen. Scherp ze indien nodig aan of breid ze uit. 
+* Moeten al bestaande items opnieuw bekeken worden en worden gekeurd? Hoeveel? Zie ook **[H3.5](#organisatie-processtappen-rollen-en-rechten)**.
+
+### Itemkwaliteit
+
+* Bepaal en documenteer vuistregels waaraan de items moeten voldoen. Denk ook aan regels over taalgebruik en bronvermelding. 
+* Betrek waar mogelijk item-experts (niet iedereen maakt goede items) of een psychometricus. 
+* Plan review-begeleidingssessies onder leiding van een vraagexpert. Laat docenten een flink aantal bestaande voorbeelditems aanleveren. Bespreek gezamenlijk de variatie tussen de vakken, de wijze van vraagstelling en de constructiefouten in deze items. Hierdoor krijgen de betrokkenen ideeën over uniformering van vraagformulering en vraagvormen. 
+* Bedenk hoe je de gewenste kwaliteitsverbetering kunt meten. 
+* Begin met het einde in gedachten: inventariseer welke gegevens je uit de itembank wilt kunnen halen ten behoeve van het onderwijskundige proces. Zie ook **[H3.7](#didactiek-kwaliteit-van-items)**.
+
+### Systeem
+
+* Bij een eenvoudig itembankproject: bekijk welk toetssysteem de instelling gebruikt. Ondersteunt het systeem het gewenste itemontwikkelproces, de gewenste rollen en rechten, de hiërarchische structuur en metadata? 
+* Bij een complex itembankproject: indien er meerdere systemen in gebruik zijn, maak een afweging welk systeem het meest geschikt is voor het doel.
+* Past het gewenste itemontwikkelproces in het systeem? Dan kun je bepalen hoeveel werk het is om in te richten. Past het niet, bepaal dan of je het proces kunt aanpassen, of dat je liever onderzoekt of de structuur van het systeem kan worden aangepast. 
+* Geef aan wat er nodig is om de veiligheid van de items in de bank te waarborgen. 
+* Hoe schaalbaar moet het systeem zijn, nu en in de toekomst – voor zover je kunt overzien? Zie ook **[H3.2](#technologie-systemen)**.
+
+### Productie en planning
+
+* In de voorbereiding heb je grofweg bepaald hoeveel items je nodig hebt in de itembank. Zet dit aantal uit in tijd (korte en lange termijn). Hoeveel vraagt dit van medewerkers? 
+* Hoeveel items zijn al beschikbaar bij de verschillende partijen en kunnen met weinig moeite bij elkaar gebracht worden? 
+* Bedenk hoe je het vullen van de itembank aanpakt. Bepaal de periode, eventuele deadlines (wanneer vinden de eerste toetsen plaats?) en streefproductie door opschaling (batches). 
+* Bepaal wanneer je een kwaliteitsreview doet op basis van toetsstatistieken en psychometrische gegevens. Zie ook **[H3.3](#omvang-van-de-itembank)**.
+
+### Financiën
+
+* Werk de inschatting van de kosten en baten uit de voorgaande stappen verder uit. Bedenk hoe de initiële ontwikkeling zal worden gefinancierd. 
+* Stel vast hoe je de exploitatie van de itembank na afronding van het project gaat financieren. Stel een exploitatieplan op. Mogelijkheden om inkomsten te genereren zijn bijvoorbeeld: 
+    * Instellingen nemen een abonnement op de itembank, om deze vervolgens kosteloos aan studenten aan te bieden. 
+    * Studenten betalen voor toegang tot de itembank. 
+* Betrek de opdrachtgever van de itembank bij het opstellen van het budget voor exploitatie. Zorg dat hij of zij zich hiervoor verantwoordelijk voelt. Zie ook **[H3.4](#kosten-en-baten)**.
+
+### Juridische aandachtspunten
+
+* Stel vast wie de eigenaar is van de items in de itembank. 
+* Bedenk hoe je wilt omgaan met materiaal van derden dat auteursrechtelijk beschermd is, zoals afbeeldingen bij items. 
+* Bepaal wat je nodig hebt op het gebied van de bescherming van persoons- gegevens. 
+* Overleg welke afspraken je over de samenwerking met betrokken partijen wilt vastleggen. Leg ten minste vast hoeveel uur wordt geleverd voor itemontwikkeling. Betrek een juridisch expert bij instellingsoverstijgende samenwerkingen om te beoordelen wat de beste samenwerkingsmogelijkheid is en wat hierbij komt kijken. Zie ook **[H3.8](#juridische-aandachtspunten]**.
+
+### Beheer itembank
+
+* Bedenk hoe je de gebruikers, zoals docenten en studenten, het beste kunt ondersteunen om het eindproduct in gebruik te nemen. Ga hiervoor met hen in gesprek en luister naar argumenten. Laat hen juist bij het ontwerp meedenken.
+* Bedenk wie of wat je nodig hebt om de itembank te beheren. Wie heb je nodig op het gebied van ondersteuning en beheer na het project? 
+* Maak instructiemateriaal en plan instructiemomenten. 
+* Ga in gesprek met de eventueel beschikbare toets- en beheerorganisatie in de instelling en stem de werkwijze af. Zie ook **[H3.5](#organisatie-processtappen-rollen-en-rechten)**.
+
+::: {.tip}
+
+**Wat heb je aan het einde van deze stap?**  
+
+Een ontwerp van de itembank. Alle tussenresultaten per onderdeel tellen op tot het ontwerp van de itembank:
+
+* *Structuur*: een landkaart/tabel met de onderwerpstructuur die is overeen- gekomen en afspraken omtrent bijvoorbeeld notatiewijzen.
+* *Organisatie*: aanpak en gedocumenteerde organisatorische afspraken (beschrijving van de toets- en beheerorganisatie) over hoe de itembank zal worden beheerd, inclusief besturing van de itembank, inclusief benodigde kennis en kunde van betrokkenen (een opleidingsplan).
+* *Systeem*: inrichtingsplan systeem; dit betreft workflow (van het itemontwikkel- proces) en de metastructuur (hiërarchische structuur en metadatastructuur).
+* *Kwaliteit*:
+    * afspraken over de gewenste kwaliteit van de items, onder andere een beschrijving van richtlijnen en criteria waaraan de items moeten voldoen.
+    * beschrijving van het werkproces voor itemontwikkeling, inclusief beheer, analyse en de rollen en rechten.
+    * een indicatie van de tijd die het vergt om een item te ontwikkelen.
+    * een indicatie van de toename en consistentie van de itemkwaliteit.
+* *Productie en planning*: aanpak en gedocumenteerde organisatorische afspraken hoe de itembank ‘te vullen’ en op niveau te houden.
+* *Financieel*: een businesscase en exploitatieplan.
+* *Juridisch*: vastgelegde afspraken over de juridische aspecten van de items en het systeem
+
+::::
+
+## Stap 4: Pilot
+
+Het ontwerp is klaar. Nu richt je de itembank in en maak je hem gereed voor gebruik. In deze stap wordt een itembankstructuur opgezet, metadata-categorieën ingevoerd, accounts aangemaakt, bestaande items geconverteerd, rollen en rechten verdeeld.
+
+Voer een pilot uit waarbij je een eerste toetsperiode volledig draait. Je test in de pilot of de keten van activiteiten werkt. Maak zoveel items dat je een eerste toetsperiode kan afdekken. Check of de gemaakte afspraken haalbaar zijn. Kloppen de uitgangs- punten? Weet iedereen welke rollen en rechten hij of zij heeft? Test of de systemen en de werkwijze technisch werken. En worden de items door studenten gebruikt zoals beoogd? Worden formatieve toetsen wel gebruikt? Evalueer en pas aan indien nodig.
+
+De volgende activiteiten vinden plaats in de pilot:
+
+* Richt de itembank technisch in en test hem.
+* Indien er sprake is van een conversie van oude items naar de nieuwe situatie: voer de conversie uit met een klein aantal items.
+* Leid medewerkers op.
+* Voer een eerste partij van items in op basis van de afgesproken werkwijze
+* Stel een toets samen met de items.
+* Bied de toets aan in een onderwijsonderdeel.
+* Evalueer het gebruik en de resultaten van de toets.
+* Zet een administratief systeem op voor personen en financiën (bijvoorbeeld als er is gekozen voor een vergoeding per geconstrueerde item of coördinatorschap).
+* Evalueer het gebruik en de werkwijzen voor het aanmaken van items. Kan de kwaliteit beter onder controle worden gebracht? Kloppen de uitgangspunten, bijvoorbeeld de ingeschatte tijd voor vraagontwikkeling?
+* Waar nodig: stuur bij, pas gemaakte afspraken aan, stel uitgangspunten bij.
+
+::: {.tip}
+
+**Wat heb je aan het eind van deze stap?**
+
+* Een gedocumenteerde evaluatie van de pilot op de diverse inrichtings- aspecten en vanuit het oogpunt van de gebruikers inclusief een verbeterplan.
+* Een ingerichte en geteste itembank.
+
+::::
+
+## Stap 5: Realisatie
+
+In deze stap neem je de itembank in gebruik. Ook onderneem je actie om het gebruik van de itembank te laten toenemen.
+
+De pilot heeft een aantal lessen opgeleverd. Op basis hiervan kun je grootschaliger te werk gaan. Tijdens de realisatie worden grotere aantallen items gemaakt en worden de toetsen vaker ingezet.
+
+**Aandachtspunten:**
+
+* Zorg dat de eigenaar van de itembank zich blijft bezig houden het volgen en bewaken van de doelstellingen en resultaten.
+* Bespreek de borging regelmatig met de eigenaar van de itembank. Maken de itemontwikkelaars voldoende items? Zijn de items van goede kwaliteit? Hoe kun je zorgen voor zo min mogelijk variatie in kwaliteit? Is iedereen tevreden met het proces? Kan de docent gemakkelijk toetsen samenstellen? Vinden studenten de ontwikkelde formatieve items en feedback aantrekkelijk?
+* Ga na of de businesscase haalbaar blijft. Zie ook **[H3.7](#didactiek-kwaliteit-van-items)**.
+
+### Nazorg
+De itembank is geïmplementeerd. Het proces is in werking, iedereen vervult zijn taak en gebruikt de itembank op de afgesproken manier. Er is een formele eigenaar die het doel van de itembank in de gaten houdt. De itembank heeft een plek gekregen in de organisatie: er zijn mensen die ervoor zorgen dat de itembank blijft bestaan en goed wordt gebruikt. De onderwijskundig meerwaarde is duidelijk voor nu en in de toekomst.
+
+**Aandachtspunten:**
+
+* Zorg dat het onderhoud van de itembank is belegd, bijvoorbeeld bij een functioneel beheerder en de redacteur(s).
+* Zorg dat de financiële administratie functioneert zoals voorzien voor de exploitatiefase. Blijf in de gaten houden of de exploitatie een passende toekomstige begroting oplevert.
+* Zorg voor goede documentatie, zoals:
+    * een beschrijving van de inzet van de itembank in de cursus.
+    * een beschrijving van het onderhoud van de itembank voor de toets- en beheerorganisatie.
+    * een beschrijving van het onderhoud van de itembank voor een eventueel coördinatieteam en voor elk auteursteam per itembank. Zie **[§ 3.7.2.3](#itembankonderhoud-en-beheer)**.
+    * een standaard instructieprogramma voor gebruik van het itembanksysteem voor nieuwe medewerkers.
+    * aanpassingen aan het instructieprogramma bij updates van en aanpassingen aan het itembanksysteem.

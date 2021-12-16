@@ -1,0 +1,21 @@
+bookdown::gitbook:
+  css: style.scss
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Handboek Itembanken</a></li>
+      after: |
+        <li><a href="mailto:annette.peet@surfnet.nl?SUBJECT=Reactie Handboek Itembanken" target="blank">Mail de werkgroep</a></li>
+        <li><a href="https://werkgroep-toetsen-op-afstand.github.io/Resultaten-Enquete-Examencommissies/files/Verklaring_privacy_cookies.txt" target="blank">Privacyverklaring</a></li>
+        <li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></li>
+    search: yes
+    download: ["epub"]
+  includes:
+    in_header: ["google_analytics.html", "icons.html","zoomImage.html"]
+bookdown::epub_book: default
+# bookdown::pdf_book:
+#   latex_engine: xelatex
+#   citation_package: natbib
+#   keep_tex: yes
+#   extra_dependencies: ["float"]
