@@ -1,6 +1,6 @@
 --- 
-title: "Handboek Itembanken"
-subtitle: "In 5 stappen naar een itembank"
+title: "Handbook Item Banking"
+subtitle: "An itembank in 5 steps"
 author: ["SURF,", "Versnellingsplan"]
 date: "Updated: `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,7 +9,7 @@ documentclass: book
 # bibliography: [book.bib, packages.bib]
 # biblio-style: apalike
 # link-citations: yes
-github-repo: Werkgroep-Toetsen-Op-Afstand/Handboek-Itembanken
+github-repo: Werkgroep-Toetsen-Op-Afstand/Handbook-Item-Banking
 description: ""
 always_allow_html: true
 bibliography: "bibliography.bib"
