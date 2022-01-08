@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Part 3 Going deeper | Handbook Item Banking</title>
+  <meta name="description" content="Part 3 Going deeper | Handbook Item Banking" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Part 3 Going deeper | Handbook Item Banking" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="Werkgroep-Toetsen-Op-Afstand/Handbook-Item-Banking" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Part 3 Going deeper | Handbook Item Banking" />
+  
+  
+  
+
+<meta name="author" content="SURF," />
+<meta name="author" content="Versnellingsplan" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="step-by-step-plan-1.html"/>
+<link rel="next" href="appendices.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '', { 'anonymize_ip': true });
+</script>
+<script src="https://kit.fontawesome.com/6690488952.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<style>
+.zoomDiv {
+  opacity: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 50;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 50px #888888;
+  max-height:100%; 
+  overflow: scroll;
+  background-color: rgba(255, 255, 255, .95);
+}
+
+.zoomImg {
+  width: 100%;
+}
+</style>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('body').prepend("<div class=\"zoomDiv\"><img src=\"\" class=\"zoomImg\"></div>");
+    // onClick function for all plots (img's)
+    $('img:not(.zoomImg)').click(function() {
+      $('.zoomImg').attr('src', $(this).attr('src'));
+      $('.zoomDiv').css({opacity: '1', width: '60%'});
+    });
+    // onClick function for zoomImg
+    $('img.zoomImg').click(function() {
+      $('.zoomDiv').css({opacity: '0', width: '0%'});
+    });
+  });
+</script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="libs/sass858908ab95f07571f6cc3d1548570b72/style.min.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Handbook Item Banking</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#introduction-1"><i class="fa fa-check"></i><b>1.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#who-is-this-publication-for"><i class="fa fa-check"></i><b>1.1.1</b> Who is this publication for?</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#scope"><i class="fa fa-check"></i><b>1.1.2</b> Scope</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#justification"><i class="fa fa-check"></i><b>1.1.3</b> Justification</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#definitions-and-concepts"><i class="fa fa-check"></i><b>1.2</b> Definitions and concepts</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#what-is-an-item-bank"><i class="fa fa-check"></i><b>1.2.1</b> What is an item bank?</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#the-position-of-an-item-bank-within-the-digital-assessment-system"><i class="fa fa-check"></i><b>1.2.2</b> The position of an item bank within the digital assessment system</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#key-concepts"><i class="fa fa-check"></i><b>1.2.3</b> Key concepts</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#an-item-bank-in-5-easy-steps"><i class="fa fa-check"></i><b>1.3</b> An item bank in 5 easy steps</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#step-by-step-plan"><i class="fa fa-check"></i><b>1.3.1</b> Step-by-Step Plan</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#success-factors"><i class="fa fa-check"></i><b>1.4</b> Success factors</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html"><i class="fa fa-check"></i><b>2</b> Step-by-step plan</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#step-1-preparation"><i class="fa fa-check"></i><b>2.1</b> Step 1: Preparation</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#feasibility-study"><i class="fa fa-check"></i><b>2.1.1</b> Feasibility study</a></li>
+<li class="chapter" data-level="2.1.2" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#completion-of-groundwork-stage"><i class="fa fa-check"></i><b>2.1.2</b> Completion of groundwork stage</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#step-2-action-plan"><i class="fa fa-check"></i><b>2.2</b> Step 2: Action plan</a></li>
+<li class="chapter" data-level="2.3" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#step-3-design"><i class="fa fa-check"></i><b>2.3</b> Step 3: Design</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#arrangement-of-items"><i class="fa fa-check"></i><b>2.3.1</b> Arrangement of items</a></li>
+<li class="chapter" data-level="2.3.2" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#item-development-process"><i class="fa fa-check"></i><b>2.3.2</b> Item development process</a></li>
+<li class="chapter" data-level="2.3.3" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#item-quality"><i class="fa fa-check"></i><b>2.3.3</b> Item quality</a></li>
+<li class="chapter" data-level="2.3.4" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#system"><i class="fa fa-check"></i><b>2.3.4</b> System</a></li>
+<li class="chapter" data-level="2.3.5" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#production-and-planning"><i class="fa fa-check"></i><b>2.3.5</b> Production and planning</a></li>
+<li class="chapter" data-level="2.3.6" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#funding"><i class="fa fa-check"></i><b>2.3.6</b> Funding</a></li>
+<li class="chapter" data-level="2.3.7" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#legal-aspects-that-need-addressing"><i class="fa fa-check"></i><b>2.3.7</b> Legal aspects that need addressing</a></li>
+<li class="chapter" data-level="2.3.8" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#item-bank-management"><i class="fa fa-check"></i><b>2.3.8</b> Item bank management</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#step-4-pilot"><i class="fa fa-check"></i><b>2.4</b> Step 4: Pilot</a></li>
+<li class="chapter" data-level="2.5" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#step-5-real-life-deployment"><i class="fa fa-check"></i><b>2.5</b> Step 5: Real-life deployment</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="step-by-step-plan-1.html"><a href="step-by-step-plan-1.html#aftercare"><i class="fa fa-check"></i><b>2.5.1</b> Aftercare</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="going-deeper.html"><a href="going-deeper.html"><i class="fa fa-check"></i><b>3</b> Going deeper</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="going-deeper.html"><a href="going-deeper.html#why-create-an-item-bank-and-why-collaborate"><i class="fa fa-check"></i><b>3.1</b> Why create an item bank? And why collaborate?</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="going-deeper.html"><a href="going-deeper.html#why-create-an-item-bank"><i class="fa fa-check"></i><b>3.1.1</b> Why create an item bank?</a></li>
+<li class="chapter" data-level="3.1.2" data-path="going-deeper.html"><a href="going-deeper.html#why-create-an-item-bank-and-why-collaborate-1"><i class="fa fa-check"></i><b>3.1.2</b> Why create an item bank? And why collaborate?</a></li>
+<li class="chapter" data-level="3.1.3" data-path="going-deeper.html"><a href="going-deeper.html#potential-fields-for-successful-collaboration"><i class="fa fa-check"></i><b>3.1.3</b> Potential fields for successful collaboration</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="going-deeper.html"><a href="going-deeper.html#technology-systems"><i class="fa fa-check"></i><b>3.2</b> Technology: Systems</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="going-deeper.html"><a href="going-deeper.html#commonly-used-assessment-systems-in-education"><i class="fa fa-check"></i><b>3.2.1</b> Commonly used assessment systems in education</a></li>
+<li class="chapter" data-level="3.2.2" data-path="going-deeper.html"><a href="going-deeper.html#sharing-test-items-between-systems"><i class="fa fa-check"></i><b>3.2.2</b> Sharing test items between systems</a></li>
+<li class="chapter" data-level="3.2.3" data-path="going-deeper.html"><a href="going-deeper.html#security-and-scalability-of-item-banks"><i class="fa fa-check"></i><b>3.2.3</b> Security and scalability of item banks</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="going-deeper.html"><a href="going-deeper.html#item-bank-size"><i class="fa fa-check"></i><b>3.3</b> Item bank size</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="going-deeper.html"><a href="going-deeper.html#summative-tests-conducted-simultaneously-for-all-students"><i class="fa fa-check"></i><b>3.3.1</b> Summative tests conducted simultaneously for all students</a></li>
+<li class="chapter" data-level="3.3.2" data-path="going-deeper.html"><a href="going-deeper.html#summative-tests-that-can-be-taken-at-any-time"><i class="fa fa-check"></i><b>3.3.2</b> Summative tests that can be taken at any time</a></li>
+<li class="chapter" data-level="3.3.3" data-path="going-deeper.html"><a href="going-deeper.html#formative-diagnostic-tests"><i class="fa fa-check"></i><b>3.3.3</b> Formative diagnostic tests</a></li>
+<li class="chapter" data-level="3.3.4" data-path="going-deeper.html"><a href="going-deeper.html#formative-practice-tests"><i class="fa fa-check"></i><b>3.3.4</b> Formative practice tests</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="going-deeper.html"><a href="going-deeper.html#costs-and-benefits"><i class="fa fa-check"></i><b>3.4</b> Costs and benefits</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="going-deeper.html"><a href="going-deeper.html#costs"><i class="fa fa-check"></i><b>3.4.1</b> Costs</a></li>
+<li class="chapter" data-level="3.4.2" data-path="going-deeper.html"><a href="going-deeper.html#benefits"><i class="fa fa-check"></i><b>3.4.2</b> Benefits</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="going-deeper.html"><a href="going-deeper.html#organisation-process-steps-roles-and-privileges"><i class="fa fa-check"></i><b>3.5</b> Organisation: process steps, roles and privileges</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="going-deeper.html"><a href="going-deeper.html#components-and-process-steps"><i class="fa fa-check"></i><b>3.5.1</b> Components and process steps</a></li>
+<li class="chapter" data-level="3.5.2" data-path="going-deeper.html"><a href="going-deeper.html#roles-and-privileges"><i class="fa fa-check"></i><b>3.5.2</b> Roles and privileges</a></li>
+<li class="chapter" data-level="3.5.3" data-path="going-deeper.html"><a href="going-deeper.html#automated-workflow"><i class="fa fa-check"></i><b>3.5.3</b> Automated workflow</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="going-deeper.html"><a href="going-deeper.html#organising-an-item-bank"><i class="fa fa-check"></i><b>3.6</b> Organising an item bank</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="going-deeper.html"><a href="going-deeper.html#metadata"><i class="fa fa-check"></i><b>3.6.1</b> Metadata</a></li>
+<li class="chapter" data-level="3.6.2" data-path="going-deeper.html"><a href="going-deeper.html#structure"><i class="fa fa-check"></i><b>3.6.2</b> Structure</a></li>
+<li class="chapter" data-level="3.6.3" data-path="going-deeper.html"><a href="going-deeper.html#use-structure-and-metadata"><i class="fa fa-check"></i><b>3.6.3</b> Use structure and metadata</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="going-deeper.html"><a href="going-deeper.html#didactics-quality-of-items"><i class="fa fa-check"></i><b>3.7</b> Didactics: quality of items</a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="going-deeper.html"><a href="going-deeper.html#quality-of-items"><i class="fa fa-check"></i><b>3.7.1</b> Quality of items</a></li>
+<li class="chapter" data-level="3.7.2" data-path="going-deeper.html"><a href="going-deeper.html#how-do-you-achieve-quality-improvements"><i class="fa fa-check"></i><b>3.7.2</b> How do you achieve quality improvements?</a></li>
+<li class="chapter" data-level="3.7.3" data-path="going-deeper.html"><a href="going-deeper.html#test-data"><i class="fa fa-check"></i><b>3.7.3</b> Test data</a></li>
+<li class="chapter" data-level="3.7.4" data-path="going-deeper.html"><a href="going-deeper.html#legal-aspects-that-need-addressing-1"><i class="fa fa-check"></i><b>3.7.4</b> Legal aspects that need addressing</a></li>
+<li class="chapter" data-level="3.7.5" data-path="going-deeper.html"><a href="going-deeper.html#ownership-of-items-and-item-bank"><i class="fa fa-check"></i><b>3.7.5</b> Ownership of items and item bank</a></li>
+<li class="chapter" data-level="3.7.6" data-path="going-deeper.html"><a href="going-deeper.html#abuse-of-item-bank-resources"><i class="fa fa-check"></i><b>3.7.6</b> Abuse of item bank resources</a></li>
+<li class="chapter" data-level="3.7.7" data-path="going-deeper.html"><a href="going-deeper.html#the-use-of-third-party-resources-in-item-banks"><i class="fa fa-check"></i><b>3.7.7</b> The use of third-party resources in item banks</a></li>
+<li class="chapter" data-level="3.7.8" data-path="going-deeper.html"><a href="going-deeper.html#personal-data-protection"><i class="fa fa-check"></i><b>3.7.8</b> Personal data protection</a></li>
+<li class="chapter" data-level="3.7.9" data-path="going-deeper.html"><a href="going-deeper.html#legal-forms-for-collaborative-ventures"><i class="fa fa-check"></i><b>3.7.9</b> Legal forms for collaborative ventures</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="appendices.html"><a href="appendices.html"><i class="fa fa-check"></i><b>4</b> Appendices</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="appendices.html"><a href="appendices.html#conceptual-framework"><i class="fa fa-check"></i><b>4.1</b> Conceptual framework</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="appendices.html"><a href="appendices.html#adaptive-assessment"><i class="fa fa-check"></i><b>4.1.1</b> Adaptive assessment</a></li>
+<li class="chapter" data-level="4.1.2" data-path="appendices.html"><a href="appendices.html#playback-environment"><i class="fa fa-check"></i><b>4.1.2</b> Playback environment</a></li>
+<li class="chapter" data-level="4.1.3" data-path="appendices.html"><a href="appendices.html#authoring-environment"><i class="fa fa-check"></i><b>4.1.3</b> Authoring environment</a></li>
+<li class="chapter" data-level="4.1.4" data-path="appendices.html"><a href="appendices.html#reliability"><i class="fa fa-check"></i><b>4.1.4</b> Reliability</a></li>
+<li class="chapter" data-level="4.1.5" data-path="appendices.html"><a href="appendices.html#body-of-knowledge-bok"><i class="fa fa-check"></i><b>4.1.5</b> Body of Knowledge (BoK)</a></li>
+<li class="chapter" data-level="4.1.6" data-path="appendices.html"><a href="appendices.html#businesscase"><i class="fa fa-check"></i><b>4.1.6</b> Businesscase</a></li>
+<li class="chapter" data-level="4.1.7" data-path="appendices.html"><a href="appendices.html#cronbachs-alpha"><i class="fa fa-check"></i><b>4.1.7</b> Cronbach’s alpha</a></li>
+<li class="chapter" data-level="4.1.8" data-path="appendices.html"><a href="appendices.html#diagnostic-assessments-a-subset-of-formative-assessment"><i class="fa fa-check"></i><b>4.1.8</b> Diagnostic assessments (a subset of formative assessment)</a></li>
+<li class="chapter" data-level="4.1.9" data-path="appendices.html"><a href="appendices.html#digital-assessment-system"><i class="fa fa-check"></i><b>4.1.9</b> Digital assessment system</a></li>
+<li class="chapter" data-level="4.1.10" data-path="appendices.html"><a href="appendices.html#formative-feedback"><i class="fa fa-check"></i><b>4.1.10</b> Formative feedback</a></li>
+<li class="chapter" data-level="4.1.11" data-path="appendices.html"><a href="appendices.html#formative-assessment"><i class="fa fa-check"></i><b>4.1.11</b> Formative assessment</a></li>
+<li class="chapter" data-level="4.1.12" data-path="appendices.html"><a href="appendices.html#parameterised-question"><i class="fa fa-check"></i><b>4.1.12</b> Parameterised question</a></li>
+<li class="chapter" data-level="4.1.13" data-path="appendices.html"><a href="appendices.html#ims"><i class="fa fa-check"></i><b>4.1.13</b> IMS</a></li>
+<li class="chapter" data-level="4.1.14" data-path="appendices.html"><a href="appendices.html#item-response-theory-irt-1"><i class="fa fa-check"></i><b>4.1.14</b> Item response theory (IRT)</a></li>
+<li class="chapter" data-level="4.1.15" data-path="appendices.html"><a href="appendices.html#item"><i class="fa fa-check"></i><b>4.1.15</b> Item</a></li>
+<li class="chapter" data-level="4.1.16" data-path="appendices.html"><a href="appendices.html#item-bank"><i class="fa fa-check"></i><b>4.1.16</b> Item bank</a></li>
+<li class="chapter" data-level="4.1.17" data-path="appendices.html"><a href="appendices.html#item-bank-system"><i class="fa fa-check"></i><b>4.1.17</b> Item bank system</a></li>
+<li class="chapter" data-level="4.1.18" data-path="appendices.html"><a href="appendices.html#classical-test-theory"><i class="fa fa-check"></i><b>4.1.18</b> Classical test theory</a></li>
+<li class="chapter" data-level="4.1.19" data-path="appendices.html"><a href="appendices.html#kr20"><i class="fa fa-check"></i><b>4.1.19</b> KR20</a></li>
+<li class="chapter" data-level="4.1.20" data-path="appendices.html"><a href="appendices.html#learning-analytics"><i class="fa fa-check"></i><b>4.1.20</b> Learning analytics</a></li>
+<li class="chapter" data-level="4.1.21" data-path="appendices.html"><a href="appendices.html#lti"><i class="fa fa-check"></i><b>4.1.21</b> LTI</a></li>
+<li class="chapter" data-level="4.1.22" data-path="appendices.html"><a href="appendices.html#measurement-error"><i class="fa fa-check"></i><b>4.1.22</b> Measurement error</a></li>
+<li class="chapter" data-level="4.1.23" data-path="appendices.html"><a href="appendices.html#metadata-1"><i class="fa fa-check"></i><b>4.1.23</b> Metadata</a></li>
+<li class="chapter" data-level="4.1.24" data-path="appendices.html"><a href="appendices.html#misclassifications"><i class="fa fa-check"></i><b>4.1.24</b> Misclassifications</a></li>
+<li class="chapter" data-level="4.1.25" data-path="appendices.html"><a href="appendices.html#practice-assessments-a-subset-of-formative-assessments"><i class="fa fa-check"></i><b>4.1.25</b> Practice assessments (a subset of formative assessments)</a></li>
+<li class="chapter" data-level="4.1.26" data-path="appendices.html"><a href="appendices.html#psychometric-data-1"><i class="fa fa-check"></i><b>4.1.26</b> Psychometric data</a></li>
+<li class="chapter" data-level="4.1.27" data-path="appendices.html"><a href="appendices.html#p-value"><i class="fa fa-check"></i><b>4.1.27</b> P-value</a></li>
+<li class="chapter" data-level="4.1.28" data-path="appendices.html"><a href="appendices.html#qti"><i class="fa fa-check"></i><b>4.1.28</b> QTI</a></li>
+<li class="chapter" data-level="4.1.29" data-path="appendices.html"><a href="appendices.html#rit-value"><i class="fa fa-check"></i><b>4.1.29</b> Rit-value</a></li>
+<li class="chapter" data-level="4.1.30" data-path="appendices.html"><a href="appendices.html#scorm"><i class="fa fa-check"></i><b>4.1.30</b> SCORM</a></li>
+<li class="chapter" data-level="4.1.31" data-path="appendices.html"><a href="appendices.html#stable-domain"><i class="fa fa-check"></i><b>4.1.31</b> Stable domain</a></li>
+<li class="chapter" data-level="4.1.32" data-path="appendices.html"><a href="appendices.html#structure-1"><i class="fa fa-check"></i><b>4.1.32</b> Structure</a></li>
+<li class="chapter" data-level="4.1.33" data-path="appendices.html"><a href="appendices.html#summative-assessment"><i class="fa fa-check"></i><b>4.1.33</b> Summative assessment</a></li>
+<li class="chapter" data-level="4.1.34" data-path="appendices.html"><a href="appendices.html#test-item"><i class="fa fa-check"></i><b>4.1.34</b> Test item</a></li>
+<li class="chapter" data-level="4.1.35" data-path="appendices.html"><a href="appendices.html#test-transparancy"><i class="fa fa-check"></i><b>4.1.35</b> Test transparancy</a></li>
+<li class="chapter" data-level="4.1.36" data-path="appendices.html"><a href="appendices.html#test-matrix"><i class="fa fa-check"></i><b>4.1.36</b> Test matrix</a></li>
+<li class="chapter" data-level="4.1.37" data-path="appendices.html"><a href="appendices.html#test-safety"><i class="fa fa-check"></i><b>4.1.37</b> Test safety</a></li>
+<li class="chapter" data-level="4.1.38" data-path="appendices.html"><a href="appendices.html#test-question"><i class="fa fa-check"></i><b>4.1.38</b> Test question</a></li>
+<li class="chapter" data-level="4.1.39" data-path="appendices.html"><a href="appendices.html#field-of-study"><i class="fa fa-check"></i><b>4.1.39</b> Field of study</a></li>
+<li class="chapter" data-level="4.1.40" data-path="appendices.html"><a href="appendices.html#question-database"><i class="fa fa-check"></i><b>4.1.40</b> Question database</a></li>
+<li class="chapter" data-level="4.1.41" data-path="appendices.html"><a href="appendices.html#volatile-domain"><i class="fa fa-check"></i><b>4.1.41</b> Volatile domain</a></li>
+<li class="chapter" data-level="4.1.42" data-path="appendices.html"><a href="appendices.html#workflow"><i class="fa fa-check"></i><b>4.1.42</b> Workflow</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="appendices.html"><a href="appendices.html#item-development-workflows"><i class="fa fa-check"></i><b>4.2</b> Item development workflows</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="appendices.html"><a href="appendices.html#an-item-development-process-by-two-lecturers"><i class="fa fa-check"></i><b>4.2.1</b> An item development process by two lecturers</a></li>
+<li class="chapter" data-level="4.2.2" data-path="appendices.html"><a href="appendices.html#item-development-process-with-collaboration-between-universities-of-applied-sciences"><i class="fa fa-check"></i><b>4.2.2</b> Item development process with collaboration between universities of applied sciences</a></li>
+<li class="chapter" data-level="4.2.3" data-path="appendices.html"><a href="appendices.html#item-development-process-for-mbo-knowledge-test-bank"><i class="fa fa-check"></i><b>4.2.3</b> Item development process for MBO Knowledge Test Bank</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="colofon.html"><a href="colofon.html"><i class="fa fa-check"></i><b>5</b> Colofon</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="colofon.html"><a href="colofon.html#contributors-to-this-revised-edition"><i class="fa fa-check"></i><b>5.1</b> Contributors to this revised edition:</a></li>
+<li class="chapter" data-level="5.2" data-path="colofon.html"><a href="colofon.html#the-original-publication-was-written-by"><i class="fa fa-check"></i><b>5.2</b> The original publication was written by:</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="colofon.html"><a href="colofon.html#editor"><i class="fa fa-check"></i><b>5.2.1</b> Editor</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="colofon.html"><a href="colofon.html#in-close-collaboration-with-various-item-bank-experts"><i class="fa fa-check"></i><b>5.3</b> In close collaboration with various item bank experts:</a></li>
+<li class="chapter" data-level="5.4" data-path="colofon.html"><a href="colofon.html#with-thanks-to"><i class="fa fa-check"></i><b>5.4</b> With thanks to</a></li>
+<li class="chapter" data-level="5.5" data-path="colofon.html"><a href="colofon.html#formatting"><i class="fa fa-check"></i><b>5.5</b> Formatting</a></li>
+<li class="chapter" data-level="5.6" data-path="colofon.html"><a href="colofon.html#english-translation"><i class="fa fa-check"></i><b>5.6</b> English translation</a></li>
+<li class="chapter" data-level="5.7" data-path="colofon.html"><a href="colofon.html#copyright"><i class="fa fa-check"></i><b>5.7</b> Copyright</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>6</b> Literature</a></li>
+<li class="divider"></li>
+<li><a href="mailto:annette.peet@surfnet.nl?SUBJECT=Reactie Handbook Item Banking" target="blank">Mail working group</a></li>
+<li><a href="https://werkgroep-toetsen-op-afstand.github.io/Resultaten-Enquete-Examencommissies/files/Verklaring_privacy_cookies.txt" target="blank">Privacyverklaring</a></li>
+<li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></li>
+<li><a href="https://werkgroep-toetsen-op-afstand.github.io/Handboek-Itembanken">NL</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Handbook Item Banking</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="going-deeper" class="section level1" number="3">
+<h1><span class="header-section-number">Part 3</span> Going deeper</h1>
+<div id="why-create-an-item-bank-and-why-collaborate" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Why create an item bank? And why collaborate?</h2>
+<p>You describe the purpose of the item bank in the preparatory phase. In this chapter, we describe a number of possible ways in which an item bank can have an impact on teaching. We will also elaborate on the benefits of collaborating on an item bank. Finally, we will examine which factors within the professional field contribute to a successful joint item bank project.</p>
+<div id="why-create-an-item-bank" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Why create an item bank?</h3>
+<p>Decide what role the item bank will play in the learning and assessment process. An item bank is often created with the aim of having an impact on education, such as improving quality or increasing efficiency.</p>
+<p>Examples of the intended impact are:</p>
+<ul>
+<li><em>Psychometric</em>: increasing the reliability and validity of tests.</li>
+<li><em>Accountability and transparency</em>: the launch of the item bank will provide more opportunities to account for the quality of assessment in a transparent manner. For instance, it will provide a good view of the entire item bank and the match with the test matrix.</li>
+<li><em>Assurance</em>: a more verifiable and less error-prone production process of items, for example, by verifiable version management of items.</li>
+<li><em>Sustainability</em>: items are managed within the item bank independently of a specific lecturer. So they will not disappear when a teacher leaves.
+** Test security** it is easy to produce multiple test versions and therefore prevent cheating.
+** Test security** it becomes easier to develop tests in a secure way, for example, because items are no longer forwarded through email systems.</li>
+<li><em>Efficiency</em>: reusing items reduces costs. Items only need to be typed once, editing and improvement can be performed much faster, and items can be more easily selected for inclusion in a test.</li>
+<li><em>Educational quality</em>: reusing items allows lecturers to spend more time teaching.</li>
+<li><em>Educational quality</em>: there will be more practice opportunities and opportunities for level differentiation.</li>
+<li><em>Educational quality</em>: resits and better feedback opportunities can be organised more quickly.</li>
+<li><em>Educational quality</em>: the study success rate will be higher, as students will be able to practice and internalise the subject matter better.</li>
+<li><em>Utility</em>: investments in items that have already developed are more effectively recouped.</li>
+</ul>
+</div>
+<div id="why-create-an-item-bank-and-why-collaborate-1" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Why create an item bank? And why collaborate?</h3>
+<p>There is a lot to be gained from collaboration, both within and between institutions. The joint creation and use of item banks can even lead to a significant qualitative and quantitative benefit in the short term. Why?</p>
+<p>Firstly, lecturers who jointly set up an item bank will have to enter into a dialogue based on clear terms. They decide together how they will talk about item development and what minimum quality requirements they set. This already helps to raise the standard of quality.</p>
+<p>Secondly, the use of assessment experts in the collaboration is self-evident. They can contribute to the assessment content but also, for example, in the field of test competence, editing and layout. This will also help improve the quality of the items. See <strong><a href="#hoe-realiseer-je-een-kwaliteitsverbetering">§ 3.7.2</a></strong> about the various roles in item development.</p>
+<p>Thirdly, when you collaborate, you will agree more rules about the item development process. This means that the item developers will become more aware of the various development phases, the responsibility and assurances in the process. If item developers adhere to these rules, this will lead to an increase in quality. This will allow for better control of quality because the process is assured.</p>
+<p>Finally, collaboration can lead to lower costs. Initially, collaborating will entail more costs, but once developed items are used more often and by more lecturers – and therefore used by more students – the cost of use of the items will reduce on balance. For a further explanation, see <strong><a href="#kosten-en-baten">Hoofdstuk 3.4</a></strong>.</p>
+</div>
+<div id="potential-fields-for-successful-collaboration" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Potential fields for successful collaboration</h3>
+<p>A shared vision within the field of study could help you achieve a successful item bank more quickly. The more people within a given field agree on the classification of the subject matter, the more self-evident it will become to develop item banks together. Fields of study with a common body of knowledge (BoK), such as teacher training programmes or the medical field, are good examples of this. Subject areas in which most study programmes provide introductory courses are also suitable for organising joint item banks. Examples include Introduction to Psychology, Introduction to Sociology, Introduction to Neurobiology, and Introduction to Programming.</p>
+<p>Stable domains lend themselves well to joint item banks that can be set up with little maintenance. Classical subjects such as logic, mathematics, statistics, mechanics, accounting and the fundamentals of microbiology lend themselves well to such collaboration. Once developed, questions will stay fresh for a long time. For disciplines that are constantly developing thanks to new understanding, it will be important to maintain items. Outdated or obsolete items must be identified and deleted or updated. This process must be structured systematically in order to ensure the quality of the questionnaire. For instance, a yearly review of all items to check for freshness. When you collaborate with others, it is essential to agree who will do this and when. Examples of subject areas to which this applies are the medical field, nursing, tourism and history. Collaboration to share costs and increase quality is an interesting driver here.</p>
+<p>Subject areas that are constantly developing in terms of content (volatile domains) require an even stronger focus on the design of the item bank system and the assurance process. Think of subjects where recent legislation is always important, such as Law, where adaptation to new protocols is always happening, such as Nursing, or where work is largely thematic. Ongoing attention is required for screening, editing, deletion or supplementation. A process has to be established to deal with this.</p>
+<p>In subject areas in which large numbers of students are taught, item banks are also more suitable for collaboration, because the investment costs and maintenance costs per student will then be much lower.</p>
+</div>
+</div>
+<div id="technology-systems" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Technology: Systems</h2>
+<p>You will conduct research into the item bank system to be used when preparing the project. In the case of a small project, this will probably be the institution’s central assessment system. Find out within the institution which department is responsible for managing educative ICT applications and, in particular, assessment systems, and discuss your wants and needs for the item bank.</p>
+<p>First and foremost, item bank systems must facilitate:</p>
+<ul>
+<li>proper entry and organisation of items, as well as search and selection</li>
+<li>activities relating to quality assurance of the items.</li>
+</ul>
+<p>Assessment systems come in many types and sizes and offer many features that meet these requirements.</p>
+<p>The core components of a digital assessment system are the authoring environment, the item bank, the playback environment and the analysis tool. In <strong><a href="#organisatie-processtappen-rollen-en-rechten">Hoofdstuk 3.5</a></strong>, we will take a deeper dive into the underlying processes of these components.</p>
+<div id="commonly-used-assessment-systems-in-education" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Commonly used assessment systems in education</h3>
+<p>This section provides a run-down of the most commonly used assessment systems in higher education. The list has been compiled by experts involved in the authoring of this manual. The market for assessment system suppliers is dynamic, and for this reason the list is incomplete.<strong>Commonly used assessment systems in the Netherlands:</strong></p>
+<ul>
+<li><a href="http://www.testvision.nl">TestVision</a></li>
+<li><a href="https://www.paragin.nl/remindotoets/">RemindoToets</a></li>
+<li><a href="https://www.maplesoft.com/products/mapleta/">MapleTA</a></li>
+<li><a href="http://www.cirrusassessment.com/">Cirrus Assessment</a></li>
+<li><a href="http://www.questionmark.com">QM</a></li>
+<li><a href="www.infoland.nl/producten/iqualify">iQualify</a></li>
+<li><a href="https://secure.ans-delft.nl/%20Quiz-/">Ans Delft</a></li>
+</ul>
+<p><strong>Assessment systems within Learning Management Systems with limited item bank functionality:</strong></p>
+<ul>
+<li><a href="https://www.canvaslms.com/">Canvas</a></li>
+<li><a href="http://www.blackboard.com">Blackboard</a></li>
+<li><a href="https://www.d2l.com/products/learning-environment/">Desire2Learn BrightSpace</a></li>
+<li><a href="https://moodle.com/">Moodle</a></li>
+<li><a href="https://www.cumlaudelearning.com/">Cumlaude</a></li>
+</ul>
+<p><strong>Item bank systems (stand-alone programs) with direct item export functionality:</strong></p>
+<ul>
+<li><a href="https://www.respondus.com/">Respondus</a></li>
+<li><a href="https://www.turningtechnologies.com/examview">ExamView</a></li>
+</ul>
+<p><strong>Assessment systems with questions:</strong></p>
+<ul>
+<li><a href="https://sowiso.nl/nl/">SOWISO (Mathematics)</a></li>
+<li><a href="https://www.grasple.com/">Grasple (Statistics)</a></li>
+<li><a href="http://zap.psy.utwente.nl/">Zeer Actieve Psychologie</a></li>
+<li><a href="http://www.r-exams.org/">R/Exams (Statistics)</a></li>
+<li><a href="https://www.drillster.com/info/">Drillster</a></li>
+<li><a href="https://quizlet.com/">Quizlet</a></li>
+<li><a href="https://www.proprofs.com/">ProProfs</a></li>
+<li>Item banks by publishing houses, often corresponding to a specific textbook or online learning environment (e.g. <a href="https://mlm.pearson.com/">Pearson MyLab series</a>, (McGraw Hill methods, WebAssign etc.)</li>
+</ul>
+<p>::::</p>
+</div>
+<div id="sharing-test-items-between-systems" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Sharing test items between systems</h3>
+<p>Not every educational institution in the Netherlands uses the same assessment software.</p>
+<p>So how can you still collaborate on item banks? It is often possible to convert simple multiple-choice questions from one system to another. For example, institution A creates the questions and institutions B and C convert them for use in their own assessment system. Ideally, however, you will work in the same authoring environment, follow a joint item development process, and all the questions and data about the created items will flow back to a single item bank.</p>
+<div id="qti-standard" class="section level4" number="3.2.2.1">
+<h4><span class="header-section-number">3.2.2.1</span> QTI Standard</h4>
+<p>In recent years, research has been carried out in SURF’s own network into interoperability and the ability to share questions between the various systems. At the international level, development of the IMS QTI standard (Question and Test Interoperability)(<a href="https://www.imsglobal.org/question/index.html" class="uri">https://www.imsglobal.org/question/index.html</a>) is ongoing. This standard will not solve all interchange issues in the short term, because some systems have question types that others do not, such as pointing to multiple points in an image or unequal matching questions. At the same time, QTI already works in many cases for multiple-choice tests. In practice, therefore, a more complex collaborative venture between multiple institutions means that most of the participating partners would have to work in a system other than their home system.</p>
+<p>If you cannot work in a single item bank system during the collaboration, limit the question type to be used to the multiple-choice question. This form is so simple that exchange via QTI or plain text usually runs without a hitch. Assume that metadata and media (images, sound) will not transfer well with you when you export or import items.</p>
+<p>During the preparation, perform an item interchange test. This will allow you to establish whether the transfer is working or whether conversion tools need to be created. Try to use the same system wherever possible, even when working across multiple institutions.</p>
+</div>
+<div id="lti-and-scorm-standard" class="section level4" number="3.2.2.2">
+<h4><span class="header-section-number">3.2.2.2</span> LTI and SCORM standard</h4>
+<p>Assessment professionals often use the IMS LTI (Learning Tools Interoperability) standard and SCORM (Sharable Content Object Reference Model) standards. However, these are not item interchange standards. These standards are used to link assessment systems to other systems, such as learning management systems (such as Blackboard or Canvas).</p>
+<p>Lecturer and student data, in particular, is automatically exchanged between the systems, assessments can be initiated from the LMS, and the test scores are fed back to the grading functions of the LMS. This creates a more distinctive experience of the LMS for the end-users and they do not need any extra logins.</p>
+</div>
+</div>
+<div id="security-and-scalability-of-item-banks" class="section level3" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Security and scalability of item banks</h3>
+<p>Summative items, in particular, must be developed and stored in item banks in secure conditions. The greater the importance of the tests, the more thought needs to be given to security.</p>
+<p>You also want to prevent the distribution of items during the administration of exams, especially where questions have been calibrated and item banks are small. When administrating exams by computer, it is important to use a protected environment (secure browser), but also to check carefully for mobile phones, glasses, watches and other devices that may be able to take pictures of the screen or paper. Professional invigilators remain necessary.</p>
+<p>At the same time, during the coronavirus period of 2020-2021, a huge leap was made in administrating exams and tests using online invigilation (also widely known as online proctoring). Online proctoring allows students to be monitored remotely by collecting images of the student – using his or her webcam – and of the screen.</p>
+<p>For more information, see SURF’s publication <a href="https://www.surf.nl/en/secure-assessment-workbook-tools-and-tips-for-setting-up-a-secure-assessment-proces">Secure Assessment Workbook</a>.</p>
+<p>Scalability is closely related to the desired size of the item bank. Be sure to consider the addition of any external authors, the performance of the authoring environment, the possible growth of the number of questions and subjects to be added, and metadata.</p>
+</div>
+</div>
+<div id="item-bank-size" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Item bank size</h2>
+<p>How do you decide on the number of items in an item bank? During the preparation, you will already be giving some thought to the required size, because this will give you some idea of the amount of time and the resources you will need to create the item bank. Sometimes impressive numbers of items are quoted, but the required size actually depends on many factors.</p>
+<p>First of all, you will need to know how many items you want to include in a test. Can you and are you allowed to reuse items? Do you want to use the items in a summative or formative test? This can make a difference for the required number.</p>
+<p>In the sections below, we outline scenarios for various tests in which you might want to use the items.</p>
+<div id="summative-tests-conducted-simultaneously-for-all-students" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Summative tests conducted simultaneously for all students</h3>
+<p>Most tests in higher education are conducted as classical examinations. One lecturer or team puts together a test for a group of candidates for one course from a single institution. All students sit the exam at the same time. What will the situation be then?</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Test questions released</th>
+<th>Test questions not released</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Let’s say that the test questions will be released following the test, that you compile three different versions of the test and that the test consists of fifty items. In that case, you will need an item bank whose size will have to increase by 150 items for each test. After five years, there will be 750 items in the item bank. Institutions often stipulate in their assessment policy the rules relating to what is and what is not permitted with regard to the reuse of items.</td>
+<td>Let’s say that the test questions will not be released following the test, that you compile three different versions of the test and that the test consists of fifty items. In this case, an item bank of 150 items will be sufficient.</td>
+</tr>
+<tr class="even">
+<td>Let’s say that the test questions will be released following the test, that the position of a question in the test is randomly selected from one of two positions, and that the test consists of fifty items. In that case, you will need an item bank whose size will have to increase by 100 items for each test. After five years, you will have an item bank of 500 items <span class="citation">(<a href="#ref-draaijer2015practical" role="doc-biblioref">Draaijer and Klinkenberg 2015</a>)</span>.</td>
+<td>Let’s say that the test questions will not be released following the test, that the position of each question in the test is randomly selected from one of two positions, and that the test consists of fifty items. In this case, an item bank of 100 items will be sufficient.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="summative-tests-that-can-be-taken-at-any-time" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Summative tests that can be taken at any time</h3>
+<p>There are also tests that are administered whenever requested by the student. Here, there is a risk that students will collect items and share them among their peers. Or that students will enrol for the test multiple times in the hope of answering the same items to which they then know the correct answer.</p>
+<p>Some people argue that it is not necessarily a bad thing if test questions are known, as long as the item bank is large enough. The reasoning is that if students can practice using all the items, they will learn the subject matter by themselves. However, there will always be a type of student who will try to memorise the correct answers so that no real knowledge or understanding is acquired. If they pass this test, it will impair the validity of the test. How many items are needed to prevent this is impossible to ascertain. Nevertheless, item banks holding at least 1,000 to 2,000 items would seem necessary.</p>
+<p>In all cases, it is advisable to make sure that students answer new questions. A minimal variant is that alternatives from multiple-choice questions do vary in terms of content or their position in the test. In addition, parameterised test items could be used. These are questions in which numbers, objects or concepts are drawn from a collection <span class="citation">(<a href="#ref-fattoh2014automatic" role="doc-biblioref">Fattoh 2014</a>)</span>.</p>
+<div class="tip">
+<p>At the start of the Dutch Open University’s item bank project, the guideline in use was that there should be fifteen times as many items in the bank as the number of items in a test. This requirement comes from the three examination opportunities per year and the assumption that students would complete the study programme within five years.</p>
+<p>For lecturers, it was almost impossible to create so many items, although about fifty item banks managed to succeed in doing so. The OU had the software modified so that students could only be presented with the same item again after five times. This made it possible to reduce the requirement of fifteen times to six times, which was a relief for the lecturers.</p>
+<p>Another requirement was that the item bank would be able to produce valuable psychometric analyses after one year. This would mean that each item would have to be answered at least thirty times. For some item banks, however, the requirement of fifteen times was already far too high; for example, when only ten students sat the exam for a particular specialisation on an annual basis.</p>
+</div>
+</div>
+<div id="formative-diagnostic-tests" class="section level3" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Formative diagnostic tests</h3>
+<p>Formative diagnostic tests that represent the classical examination correspond to the sitting one to three representative one-off tests. In this case, it does not matter if the test questions are leaked. The reason being that it is the student’s own responsibility to take a diagnostic test seriously or not.</p>
+<p>If the idea is that students can sit a diagnostic test very frequently, the most sensible choice seems to be to determine how many tests like this you want to offer. If two are available, students will usually check the first one at the beginning of the semester to assess the desired learning outcomes, and the second one just before the summative examination to perform a self-check of whether they have mastered enough of the subject matter. The number of items required for summative tests that can be administered at any time is not relevant here.</p>
+</div>
+<div id="formative-practice-tests" class="section level3" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> Formative practice tests</h3>
+<p>Formative practice tests require fewer items for each topic. First and foremost, the student will need good instructional items on key, difficult topics. For each topic, twenty or so items will probably suffice. If a subject area consists of twenty topics, approximately 400 items will then be required.</p>
+</div>
+</div>
+<div id="costs-and-benefits" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Costs and benefits</h2>
+<p>During the preparation, you will assess the financial feasibility of your project. You will make an overall estimate of the expected investment in the item bank in terms of investment costs and running costs. In addition, you will assess the quantitative and qualitative advantages or benefits that the item bank may provide. You will try to find answers to the questions ‘why invest in an item bank? ’and ‘do the benefits outweigh the costs?’ Performing a cost-benefit analysis will help you find the answers to these questions. In the case of large investment plans, a business case is something that is increasingly being requested. A business case answers the question ‘why do we actually want this?’ It underpins future decisions and helps everyone to understand why the project is important.</p>
+<p>The development of item banks can form part of a larger digital assessment implementation process within an institution. This will often be based on a business case. The costs and benefits of a proposed item bank will form one of the components of the business case. 9 For more information on the business case, see the publication <a href="https://www.surf.nl/en/theme-edition-testing-and-question-banks-in-education">Theme edition: Testing and question banks in education, Jan 2017</a> (chapter on Costs and Benefits of an Item Bank, page 12; only available in Dutch).</p>
+<div id="costs" class="section level3" number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> Costs</h3>
+<p>Developing an item bank will require an investment. These are the project costs. Subsequently, you will need money for running costs and for ongoing development and administration.</p>
+<div id="project-costs" class="section level4" number="3.4.1.1">
+<h4><span class="header-section-number">3.4.1.1</span> Project costs</h4>
+<p>The initial investment consists of creating a collaborative venture group, developing a plan, creating the organisation, consulting and negotiating on the structure of the item bank and its working methods, licencing and organising the administration of an item bank system, developing an initial number of items for the item bank and conducting the first tests using the items contained in the item bank.</p>
+<p>Different time budgets are used for the development of items. For simple knowledge questions in a multiple-choice format, especially if it is also easy to formulate distractors, it may sometimes be possible to develop four items per hour. Questions concerning case studies or application usually take more time to develop, up to an average of 60 minutes per question. This time can increase if an item also needs accompanying audiovisual material and feedback.</p>
+<p>If questions are to be used more than once, it is wise to review the quality after their first deployment in a test. Experience shows that after the first deployment, as many as half of the items will need to be modified. This can be a textual modification or may concern the subject matter itself. In the progress test for medical students, the development of a single item involves a large number of people. Despite this thoroughness, about one percent of the items are later found to be sub-standard in terms of content.</p>
+<p>To keep track of costs, log the hours of the project team members and multiply the total hours by their hourly rate. Include costs of external hires too, as well as the cost of resources used (such as systems, rooms, travel expenses, training, materials). Also include an amount for contingencies, which you can substantiate by referencing potential risks.</p>
+<p>A number of opportunities to finance the development of more complex item banks:</p>
+<ul>
+<li>‘Closed exchanges’ are used for the development of the item banks. Decide who will create and review how many items and the time periods for doing so. No invoices will be sent between the team members.</li>
+<li>Item developers receive a fee per constructed and approved item. As a result, it will not matter which lecturer or institution creates the most items. In this case, however, out-of-pocket expenses will have to be available to fund item developers.</li>
+<li>The coordinating institution or lecturer will receive a separate fee because the coordinator will spend relatively more time and will have greater responsibility.</li>
+</ul>
+<p><strong>Day-to-day running</strong></p>
+<p>Following completion of the project, the item bank will have to be maintained and further developed. During the project, you will make a plan of what this will entail. Among other things, the day-to-day running plan will stipulate that workers will be given time to continue developing items, keep the item bank live and administrate it. Assume that all items will be reviewed every couple of years, for example, to recode them due to curriculum changes, new books, etc.</p>
+<p>Remember that without a joint item bank, the cost of developing items will in many cases be untransparent. It takes time and money each time you create items on an individual basis, and the results may be of varying quality.</p>
+</div>
+</div>
+<div id="benefits" class="section level3" number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> Benefits</h3>
+<p>WatWhat are the benefits of the item bank? <a href="#waarom-een-itembank">§ 3.1.1</a> sets out the possible types of impact the item bank may have. Try to formulate these quality goals in such a way that they can be expressed in financial terms. This is often difficult and will depend on the strength of arguments.</p>
+<p>Benefits may include long-term operation, where funding is secured, for example, through a lump sum, membership contributions or funding based on test administration by students or lecturers. Map out in advance the type of funding you want to secure. Make sure that the parties commit to this as early as in the preparation stage.</p>
+<p>Benefits may also include lower costs and quality improvements. Once developed, items are used by several lecturers and, more importantly, by several students. This means that although there are costs involved in developing an item bank, on balance, the ratio between cost and quality per test taken per student is better.</p>
+</div>
+</div>
+<div id="organisation-process-steps-roles-and-privileges" class="section level2" number="3.5">
+<h2><span class="header-section-number">3.5</span> Organisation: process steps, roles and privileges</h2>
+<p>You will arrange the development and administration in the design of the item bank. You decide who performs which tasks and how. Insight into the global process steps associated with an item bank can help you to gain a clear overview of these tasks.</p>
+<div id="components-and-process-steps" class="section level3" number="3.5.1">
+<h3><span class="header-section-number">3.5.1</span> Components and process steps</h3>
+<p>Item bank systems often consist of disparate components with related functions. Core components are usually an authoring environment, an item bank, a playback environment and an analysis tool. Process steps within each of these core components can be identified. Take, for instance, the features of the item bank. We can distinguish between processes for entering, checking and modifying items, adding metadata, organising and selection.</p>
+<p>Figure 2 depicts a number of process steps that can be taken within the various components of an assessment system.</p>
+<div class="stappenplan">
+<ol style="list-style-type: decimal">
+<li>Auteursomgeving
+<ul>
+<li>Auteur schrijft item</li>
+<li>Review door collega reviewer</li>
+<li>Redactie door toetsexpert</li>
+<li>Specialist metadateert item</li>
+<li>Gatekeeper geeft items vrij</li>
+</ul></li>
+<li>Afname omgeving
+<ul>
+<li>Toetsbureau zet toets klaar</li>
+</ul></li>
+<li>Analysetool
+<ul>
+<li>Docent analyseert toets met toetsexpert</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="roles-and-privileges" class="section level3" number="3.5.2">
+<h3><span class="header-section-number">3.5.2</span> Roles and privileges</h3>
+<p>Who can access which information in the item bank? Who can modify or add something? You decide who can do what by assigning roles and privileges. In most item bank systems, the possible roles and privileges have already been defined. It is then up to you to link people to the system. Some systems make it possible to define roles yourself. Preferably, start by deciding which roles and privileges you want to be able to distinguish before you choose a system.</p>
+<p>Examples of possible roles:</p>
+<p><strong>Administration</strong></p>
+<ul>
+<li><em>Super user</em>: can access all items and can set privileges for all users.</li>
+<li><em>Coordinator</em>: has access to and can make changes to a sub-set of the item bank and a sub-set of the users.</li>
+</ul>
+<p><strong>Item development</strong></p>
+<ul>
+<li><em>Author</em>: may add and modify items.</li>
+<li><em>Controller</em>: may modify and comment on items.</li>
+<li><em>Psychometric specialist</em>: may add and edit metadata and comment on items.</li>
+<li><em>Editor</em>: checks linguistic and spelling mistakes, uniform use of language and uniform formatting of items.</li>
+<li><em>Illustrator/multimedia specialist</em>: creates uniform and useful images and adds them to the items.</li>
+<li><em>Copyright controller</em>: ensures that the use of images and texts is legal.</li>
+<li><em>Gatekeeper</em>: performs the final check of an item.</li>
+<li><ul>
+<li>Examinations Board member or Inspection Committee member *: can view the item bank to verify that any item bank policy incorporated in a study programme plan has been implemented.</li>
+</ul></li>
+<li><em>External validator</em>: an individual from outside the development team who inspects the item bank.</li>
+</ul>
+<p><strong>Examples of different privileges in an item bank system:</strong></p>
+<ul>
+<li>Access to all items.</li>
+<li>Access to sub-sets of the item bank.</li>
+<li>Read privileges, modify privileges, delete privileges, move privileges, add privileges, comment privileges, metadata privileges.</li>
+<li>Privileges to create tests.</li>
+<li>Privileges to stage tests ready for administration.</li>
+<li>Privileges to perform test analyses.</li>
+</ul>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p>Be frugal in assigning different roles and privileges. The more complex the number of roles and privileges, the more complex the workflow, the more time and energy the editorial team will have to spend on arranging and administrating them. A lack of good administration will reduce user-friendliness and stagnate the item development process.</p>
+</div>
+</div>
+<div id="automated-workflow" class="section level3" number="3.5.3">
+<h3><span class="header-section-number">3.5.3</span> Automated workflow</h3>
+<p>The current assessment systems provide working procedure support — to varying degrees — for collaboration on items. This concerns the process that an item undergoes from conception to finished product and ultimately to deletion. The way the working procedure for item development is organised is therefore already largely static.</p>
+<p>When choosing a system, make sure that several people can work in the system at the same time and can even work on the same items at the same time. In web-based assessment systems, this is usually possible by default.</p>
+<p>A system of roles and privileges makes it possible for items to be made available sequentially to different persons for revision, checking or approval. This is the automated workflow. In a workflow, you can specify that an item can only progress to the next phase once the previous phase — for example, grammar checks — has been completed.</p>
+<p>Assessment systems keep a history of each item. This provides insight into who has worked on which item and when. If any errors have taken place during the process, it is possible to roll back to an earlier situation if needed.</p>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p>If the quality is already high on deployment: organise a more comprehensive workflow process with a variety of check events. This will optimise the opportunities for raising the quality of the items. In <a href="going-deeper.html#controlled-item-development-by-review">§ 3.7.2.2</a> you can read more about controlled item development.</p>
+</div>
+</div>
+</div>
+<div id="organising-an-item-bank" class="section level2" number="3.6">
+<h2><span class="header-section-number">3.6</span> Organising an item bank</h2>
+<p>If an item bank is well organised, this will help provide insight into its structure and its suitability for composing tests. Good organisation also helps with the efficient management of items. At the same time, practical experience shows that organisation alone can never produce a fully watertight system. However, it is possible to create a watertight system for a single test. If you use a single item bank to select items for tests across multiple disciplines, it will be an almost impossible task.</p>
+<p>How should an item bank be organised? Establishing what everyone understand by the term is essential to avoid confusion. Make a solid distinction between the <em>structure</em> of an item bank and <em>metadata</em>. This chapter discusses these concepts and classification principles.</p>
+<div id="metadata" class="section level3" number="3.6.1">
+<h3><span class="header-section-number">3.6.1</span> Metadata</h3>
+<p>Metadata are pieces of information that are added to items. In the case of items within an item bank, metadata will be the main topic of the question, for instance, a sub-topic of the question, the status of the item (draft, pending revision, pending editorial control, approved, rejected), the degree of difficulty or discriminating capacity, the type of question, the taxonomic designation (e.g. knowledge, application, insight), the function of the question, who created or edited the item and the tests the item is used in.</p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="images/metadata.png" alt="An item with some metadata fields added." width="60%" />
+<p class="caption">
+Figure 3.1: An item with some metadata fields added.
+</p>
+</div>
+</div>
+<div id="structure" class="section level3" number="3.6.2">
+<h3><span class="header-section-number">3.6.2</span> Structure</h3>
+<p>The structure of an item bank is the division of the item bank into independent, often hierarchically ordered units. This is similar to the folder structure found in the file explorer of a computer.</p>
+<p>Generally speaking, users need this clear hierarchical structure to help them understand the structure of the item bank. This structure is more useful than a structure based solely on metadata. In practice, what works best is to first choose the hierarchical structure and then add metadata to the questions.</p>
+<p>The structure and metadata are often interwoven technically in different ways depending on the item bank system. Users can use the structure and metadata separately to classify and select items, but sometimes also in combination. This makes it even more difficult to comprehend structure and metadata.</p>
+<p>Some examples of existing item bank structures:</p>
+<p>The VUmc has a separate item bank within the item bank system of Questionmark Perception.</p>
+<table>
+<tr>
+<td style="width:50%">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/fig4.png" alt="The main structure of the VUmc follows the separate course-dependent tests (CAT) that are administered within the curriculum." width="60%" />
+<p class="caption">
+Figure 3.2: The main structure of the VUmc follows the separate course-dependent tests (CAT) that are administered within the curriculum.
+</p>
+</div>
+</td>
+<td style="width:50%">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="images/categories.jpg" alt="The main structure for an item bank on statistics at the Faculty of Social and Behavioural Sciences at VU Amsterdam. This item bank is part of a course in Blackboard. The item bank follows the subject classification within statistics with a distinction between Advanced/Basic and level of difficulty." width="30%" />
+<p class="caption">
+Figure 3.3: The main structure for an item bank on statistics at the Faculty of Social and Behavioural Sciences at VU Amsterdam. This item bank is part of a course in Blackboard. The item bank follows the subject classification within statistics with a distinction between Advanced/Basic and level of difficulty.
+</p>
+</div>
+</td>
+</tr>
+</table>
+<p>The Kennistoetsenbank contains item banks for users of Pedagogical Work (PW), Social Care (MZ) and Nursing and Care programmes within MBO Care and Welfare.</p>
+<table>
+<tr>
+<td style="width:50%">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="images/iQualify.jpg" alt="These item banks are classified according to: question types, the structure of the body of knowledge (BoK), the qualification dossier (QD) and special attributes. The image shows how the item bank of Pedagogical Work (PW) is configured." width="25%" />
+<p class="caption">
+Figure 3.4: These item banks are classified according to: question types, the structure of the body of knowledge (BoK), the qualification dossier (QD) and special attributes. The image shows how the item bank of Pedagogical Work (PW) is configured.
+</p>
+</div>
+</td>
+<td style="width:50%">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="images/fig7.jpg" alt="A lecturer from the Microbiology Introduction course has created an item bank in QuestionmarkLive. The structure follows exactly the structure of the textbook that he uses." width="80%" />
+<p class="caption">
+Figure 3.5: A lecturer from the Microbiology Introduction course has created an item bank in QuestionmarkLive. The structure follows exactly the structure of the textbook that he uses.
+</p>
+</div>
+</td>
+</tr>
+</table>
+<p>Structure of the LUMC questionnaire. Leiden University Medical Centre (LUMC) has an item bank based on the RemindoToets item bank system.</p>
+<table>
+<tr>
+<td>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="images/vragenbank.jpg" alt="Initially, LUMC opted for a thematic classification based on disciplines from the national Progress Test. This structure led to problems due to the poor findability of items for lecturers and also problems with the maintenance of the questions by lecturers." width="30%" />
+<p class="caption">
+Figure 3.6: Initially, LUMC opted for a thematic classification based on disciplines from the national Progress Test. This structure led to problems due to the poor findability of items for lecturers and also problems with the maintenance of the questions by lecturers.
+</p>
+</div>
+</td>
+<td style="width:50%">
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="images/categorieen.jpg" alt="A more pragmatic organisation based on programmes and curricula has now been adopted." width="35%" />
+<p class="caption">
+Figure 3.7: A more pragmatic organisation based on programmes and curricula has now been adopted.
+</p>
+</div>
+</td>
+</tr>
+</table>
+<p>Structure of the Toets &amp; Leer item bank.</p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="images/vragen.jpg" alt="Each item bank within the RemindoToets item bank system of Toets &amp; Leer offers three categories: Subject – Learning objective – Test objective. This means that you can only expand three categories to search for a test question, i.e.: subject, learning objective and test objective. The art has been to make the list of topics not too general, but at the same time not overly detailed." width="30%" />
+<p class="caption">
+Figure 3.8: Each item bank within the RemindoToets item bank system of Toets &amp; Leer offers three categories: Subject – Learning objective – Test objective. This means that you can only expand three categories to search for a test question, i.e.: subject, learning objective and test objective. The art has been to make the list of topics not too general, but at the same time not overly detailed.
+</p>
+</div>
+</div>
+<div id="use-structure-and-metadata" class="section level3" number="3.6.3">
+<h3><span class="header-section-number">3.6.3</span> Use structure and metadata</h3>
+<p>How should you configure the structure and metadata of a specific item bank? First of all, the structure should help to achieve the purpose of the tests – which are composed of the items – as efficiently as possible. The test matrix is authoritative here. If there is no test matrix, the starting point should be a sequence of items that students can use to practice. The structure and metadata will help you to select the items, make them findable and add them to a test. They make it possible to organise the large number of items in such a way that the user can work effectively with them and, for example, compile a test with the desired attributes.</p>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p><strong>For metadata, the adage ‘garbage in, garbage out’ holds true.</strong></p>
+<p>If there is too little time or money to maintain the metadata consistently and accurately, the metadata will lose its value. In that case, it’s better to have less metadata and make sure that the quality is high.</p>
+<p>A basic principle for organising the structure and the quantity of metadata is ‘less is more.’ Maintain a level of complexity that is just enough to achieve the purpose that the tests serve and to safeguard the basic steps needed for quality assurance.</p>
+</div>
+<p>Secondly, organising the metadata facilitates the process of item development and quality assurance. It is therefore important that metadata follows the form of the development process steps. See also <a href="going-deeper.html#components-and-process-steps">§ 3.5.1</a>. The same applies to metadata that allows you to identify outdated items or select items from a particular author.</p>
+<p>Thirdly, you must configure the metadata in such a way that it can form the basis for meaningful reports and feedback for students. If the purpose of a specific test is for students to receive feedback on how they score on each cell of a test matrix, structure the metadata in such a way to make this possible. If this purpose has not been established in advance, do not structure it in this way.</p>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p>If there is a broad body of knowledge (BoK) or national or international standards that apply in your field, such as CanMeds or the Interuniversity Progress Test for Medicine (iVGT), it makes perfect sense to choose this classification as your main structure. Especially if this structure is already hierarchically organised. Its use can be even more effective if it is also closely aligned with the structure of the curriculum of a study programme.</p>
+<p>If it is not closely aligned to the curriculum, which is unfortunately often the case, choosing the BoK as your main structure will create problems in practice. It is often more efficient to follow the curriculum (course) structure as your main structure and to link BoK data to this in the form of metadata.</p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-9"></span>
+<img src="images/fig10.png" alt="An item bank with a set of chapters as its main structure. Questions can be filtered based on different categories of metadata." width="100%" />
+<p class="caption">
+Figure 3.9: An item bank with a set of chapters as its main structure. Questions can be filtered based on different categories of metadata.
+</p>
+</div>
+</div>
+<p>Finally, accept that there are different item banks that are differently organised and have differing metadata structures within a single item bank system. Higher education institutions often seek to achieve a uniform organisation and metadata structure for all items. Practical experience shows that this is not possible. But this is nothing to worry about. Item banks are used in higher education for various purposes and across diverse subject areas and should therefore be organised in different ways with varying metadata structures. However, do try to limit the number of variants.</p>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p>It is very difficult to devise the structure needed to achieve a particular test objective ’on paper’. The best way to devise a structure is to carry out a pilot. Develop a matrix and a test using the item bank system. Then iterate until you find the optimal solution for the given context and the purpose. Make sure that the users of the system are aware of the advantages and disadvantages of the chosen structure so that you can build an appropriate support base. There is a ‘political’ aspect to this, because subdivisions within a field of study always like to see their subdivision represented in a test with the right ‘weighting.’</p>
+<p>Especially if you want to compare test results over an extended period of time (such as the progress tests in medical studies), it is vital that the test matrix is not changed too often.</p>
+</div>
+<div class="tip">
+<p><strong>Tip</strong></p>
+<p>Often, lecturers want to be able to stipulate that a certain question within an item bank should not appear simultaneously in a test with certain other test items. The number of possibilities that have to be reviewed to achieve this purpose will increase exponentially as the item bank grows. The ongoing procedure needed to achieve this is a manual one. It is easier to examine whether the tests can be compiled and fine-tuned in such a way that potentially interdependent items can be removed manually after the initial selection of items.</p>
+</div>
+<p><strong>Tip</strong></p>
+<p>It makes sense to assign each item in an item bank a unique code, which itself contains the hierarchical or metadata structure. Items can sometimes be moved accidentally. After a test is administered and only raw data remains, the codes will make it possible to retrieve individual items from the bank. The unique technical ID of an item at the system level is often meaningless.</p>
+<p>An example of this code: <leerdoel><topic><subtopic><niveau>&lt;unique no.&gt;</p>
+<p>B2_AF12-3_RegcoefT is an item from the Bachelor, second year about Chapter 12 of the textbook by Agresti and Finlay on the subject of the regression coefficient.</p>
+<p>However, decoding this requires painstaking work by those who enter and check items. It underlines the importance of findability and the use of too many or too few tags.### Feedback and question types</p>
+<p>Depending on the purpose of your item bank, you will be making a choice about the type of items and the nature of the feedback on the items.</p>
+<div id="feedback" class="section level4" number="3.6.3.1">
+<h4><span class="header-section-number">3.6.3.1</span> Feedback</h4>
+<p>For formative tests, developing feedback for each item is very important. Feedback can provide the student with important pointers for their study. It makes sense to check early in the project what type of feedback you want to develop. This will allow you to make an accurate assessment of the development time required for each question.</p>
+<p>Especially in the case of practice tests, it is important that substantive feedback is given for each question. Feedback must be sufficiently specific and detailed and, if possible, contain pointers for the student or references to study resources to enable the student to revisit the subject matter. There is no way that you can second-guess
+why students will choose an incorrect answer over a correct one. So do not even try. Formulate feedback carefully and – preferably – using neutral language. You should not demotivate students, but invite them to continue their studies.</p>
+</div>
+<div id="question-types" class="section level4" number="3.6.3.2">
+<h4><span class="header-section-number">3.6.3.2</span> Question types</h4>
+<p>You can create items in an item bank based on a variety of question types. Most test and item bank systems support more than ten types. See, for example, this <a href="https://webapps.ph.ed.ac.uk/qtiworks/anonymous/samples#cat1">overview of all QTI-defined question types</a>. See also <a href="going-deeper.html#qti-standard">§ 3.2.2.1</a>.</p>
+<p>For practice tests, it is advisable to use a variety of question types. This will increase the appeal of the tests. For instance, these question types allow you to interrogate multiple sub-topics at the same time or to avail of the benefits of
+computer-based test administration, such as dragging or clicking objects. It is of little consequence in the case of practice tests that each question can result in a different score.</p>
+<p>For summative and diagnostic tests, it is advisable from a statistical point of view not to use a variety of question types. Choose multiple-choice questions and give each item an equal weighting (e.g. 1 point). This choice will ensure that no problems arise in respect to different scoring options or the manner in which they are answered. This will ensure greater flexibility in being able to pull items from an item bank at random. Varying the number of alternatives (1 out of 3, 1 out of 4 or 1 out of 5 questions) should not ordinarily pose any problems, because the scores are based on 1 point for the correct answer and 0 for a distractor.</p>
+<p>In multiple choice questions, five possible answers are popular in the United States. In the Netherlands, three or four possible responses are more common. The success of a stab in the dark varies depending on the number of possible responses, but sometimes it is difficult to devise sufficient distractors. Four responses are suitable for subject areas where certain answers are clearly wrong. Examples might include exact subjects such as mathematics or biology. In fields where connections are important or where things are not always necessarily wrong, three responses to a question may be preferable. Examples include communication and most courses in psychology. Be cautious with items describing a case study, including sub-questions. A question type like this makes it more difficult to draw on flexible items because the number of sub-questions can differ per case study. This in turn affects the maximum score that can be achieved.</p>
+</div>
+</div>
+</div>
+<div id="didactics-quality-of-items" class="section level2" number="3.7">
+<h2><span class="header-section-number">3.7</span> Didactics: quality of items</h2>
+<p>Improving the quality of assessment is usually one of the main reasons for collaborating on item banks. See <a href="#why-collaborate-on-an-item-bank">§ 3.1.2</a>. The quality of assessment increases in line with an increase in the quality of the items. But how does a
+tool like a joint item bank help increase item quality? This is what this chapter is all about.</p>
+<p>There are many definitions to describe the quality of assessment <span class="citation">(<a href="#ref-a061ccfdc1fe4c00bf328e9808c0cb6d" role="doc-biblioref">Joosten-ten Brinke and Draaijer 2014</a>)</span>. The quality of an item bank system refers to the extent to which the system makes it possible to develop, manage and select items for inclusion in a test in an effective, efficient and user-friendly manner. The quality of the item bank increases as the items better represent the learning objectives from the test matrix. Quality also increases as the number of high-quality items in the bank increases.</p>
+<div id="quality-of-items" class="section level3" number="3.7.1">
+<h3><span class="header-section-number">3.7.1</span> Quality of items</h3>
+<p>If you want to improve the quality of items, focus on two types of fundamental quality in the assessment process: validity and reliability. Item banks can help bring about improvements in both. This applies both to formative assessment and to summative assessment.</p>
+<p>The validity of a test concerns the extent to which it measures what you intended it to measure. To ensure validity, it is essential that the items are relevant for a particular
+topic or learning objective. Quality improvement occurs when lecturers become more proficient in creating these types of items. Training and collaboration benefits this process. Item bank systems support this process by providing opportunities, for instance, to provide direct comments, by facilitating collaboration and by structuring the improvement cycle in the form of a workflow. See § <a href="going-deeper.html#components-and-process-steps">3.5.1</a> and <a href="going-deeper.html#roles-and-privileges">3.5.2</a>.</p>
+<p>Reliability concerns the extent to which the assessment outcome (the score obtained on a test) is reproducible and depends as little as possible on chance. To achieve high reliability, the ‘noise‘ or ’measurement error‘ must be as small as possible. Firstly, the reliability of tests can be increased by including more items in tests. You can increase the stock of items by collaborating on item banks. The number of items that a lecturer can use to compile tests will increase.</p>
+<p>Reliability is also increased by constructing items that better discriminate between students who have either a sufficient and or a deficient grasp of the source material. Having items that discriminate better will generally also increase validity: you will measure what you set out to measure better. Formulate items from the outset as clearly, efficiently and objectively as possible to achieve a better level of discrimination.</p>
+<div class="tip">
+<p>There are many manuals and lists of rules of thumb to prevent the most common causes of ambiguous items (‘noise’). See, for example, <span class="citation"><a href="#ref-van2017toetsen" role="doc-biblioref">Van Berkel, Bax, and Joosten-ten Brinke</a> (<a href="#ref-van2017toetsen" role="doc-biblioref">2017</a>)</span>.</p>
+</div>
+</div>
+<div id="how-do-you-achieve-quality-improvements" class="section level3" number="3.7.2">
+<h3><span class="header-section-number">3.7.2</span> How do you achieve quality improvements?</h3>
+<p>You improve the quality of items by reducing fluctuations in the quality of items and improving the quality of questions. This insight comes about from the subject area of operations management, as illustrated in Figure 11. In the picture on the left, you can see that the quality of a product or service is quite low on average, sometimes increasing and sometimes decreasing, but no overall rising trend. The picture on the right shows that the quality is steadily increasing, and the amount of fluctuation is decreasing. A targeted approach is needed to achieve this kind of improvement in quality.</p>
+<div class="figure"><span style="display:block;" id="fig:KwaliTijd"></span>
+<img src="images/fig11.jpg" alt="Graphical representation of quality development. Left: the quality varies a lot; the average quality is relatively low. Right: the quality becomes more constant, and the quality systematically increases." width="100%" />
+<p class="caption">
+Figure 3.10: Graphical representation of quality development. Left: the quality varies a lot; the average quality is relatively low. Right: the quality becomes more constant, and the quality systematically increases.
+</p>
+</div>
+<p>There are two ways to improve the quality of new items: either by developing a greater capacity for constructing items, or by reviewing during the construction process. Item bank systems offer workflow support to help achieve this. In this way, you can systematically improve quality.</p>
+<p>In order to improve the quality of existing items in the item bank, you can continue to carry out analyses after administrating tests and make adjustments based on interpretations of those analyses. This is in fact a cyclical process, which forms part of the maintenance and administration of an item bank. We will elaborate on this in the sections below.</p>
+<div id="information-and-training" class="section level4" number="3.7.2.1">
+<h4><span class="header-section-number">3.7.2.1</span> Information and training</h4>
+<p>In order to be able to construct high-quality items, information, training and a good feedback loop in the item development process are indispensable. When you launch an item bank, offer training to the intended item developers. This will help to develop and grow a common sense of quality. Involve assessment experts in the design of the training. Once item development is underway, as many training courses as you like can take place, for example, to coincide with editorial meetings of the author team. See also <a href="#itembank-maintenance-and-administration">§ 3.7.2.3</a>. In fact, the in-depth discussion of items based on assessment and item analyses constitutes training, albeit non-explicit. Training is therefore an ongoing and recurring part of the maintenance and administration of the item bank.</p>
+</div>
+<div id="controlled-item-development-by-review" class="section level4" number="3.7.2.2">
+<h4><span class="header-section-number">3.7.2.2</span> Controlled item development by review</h4>
+<p>You can identify and resolve common pitfalls or ambiguities early by following a step-by-step item development process with built-in review points. It is widely known that it always helps to have a second pair of eyes look at your work. Reviews are performed by peers or experts.</p>
+<p>You do not have to define the review process or the division of roles in great detail for two collaborating lecturers, certainly not in a technical sense. Today, however, it is required that each item has been reviewed at least once by a fellow lecturer. The approver of an item must also be clear. Do not underestimate this: the consequences of a test developed by one lecturer are the same as those of a national test. A student who fails the exam will not graduate.</p>
+<p>Item banks for high-stakes tests will require more roles and privileges. Let’s say that a selection of tests are prepared using an item bank and that no resit option will be available. Stakeholders, such as politicians, the public, administrators and student unions, set high standards for transparency and the quality of assessment. Examples include national tests, such as the teacher training programme (‘PABO’) arithmetic test, the test in the context of the ‘10voordeleraar’ teacher training programme or the central test in senior secondary vocational education (MBO). A comprehensive, transparent review process is required. For a description of possible roles in this process, see <a href="going-deeper.html#roles-and-privileges">§ 3.5.1</a>. The larger the team of stakeholders, the more important it will be to have a coordinator in place to manage teams and provide project support.</p>
+</div>
+<div id="item-bank-maintenance-and-administration" class="section level4" number="3.7.2.3">
+<h4><span class="header-section-number">3.7.2.3</span> Item bank maintenance and administration</h4>
+<p>The maintenance and administration of the item bank includes the discussion of items that perform less well than anticipated. Psychometric analysis of these items shows that they have low Rit values or high or low proportion values. For a detailed explanation of these terms, see <a href="going-deeper.html#psychometric-data">§ 3.7.3.2</a>. Try to work together to find out what the cause is and what you can do to improve the items. You will regularly find yourself deciding to delete items and to start afresh. These discussions may offer an opportunity to clarify the rules and guidelines for creating items within the team. Sometimes it turns out that the problem is not with the items, but rather with the teaching. In that case, you will need to examine how the teaching and the items can be better aligned with each other.</p>
+<p>Sometimes, it may be necessary to reappraise items or modify the way items are organised. For example, there may be new understanding within the subject area, changes in topics or learning objectives, or in the metadata and the assessment matrix. You may then have to ask yourself if new sets of items are needed for new topics. If items need to be recoded, issue the item developers with specific development assignments.</p>
+<div class="tip">
+<p><strong>Editorial team</strong></p>
+<p>The team of item developers should meet regularly during the development process to monitor the progress of item development. Assign one person responsibility for the item development process. Call this person the coordinator or editor-in-chief. Agree that this person has the mandate to hold people to account in respect of the rules agreed on for item development.</p>
+<p>The editor-in-chief should schedule regular meetings with all stakeholders. During these meetings, try to foster mutual trust and discuss any problems relating to the item development process.</p>
+</div>
+</div>
+</div>
+<div id="test-data" class="section level3" number="3.7.3">
+<h3><span class="header-section-number">3.7.3</span> Test data</h3>
+<p>The data you collected from the administered tests provides you with a powerful tool to improve item quality. Combined with the quality increase that item banks generate, you will have a double improvement. This data is an indicator of the quality of the items and the performance of students perform, or of the quality of the teaching. It is important to distinguish between descriptive and psychometric data. They have very different characters, which must be aligned with the purpose for which you are using the item bank.</p>
+<div id="descriptive-data" class="section level4" number="3.7.3.1">
+<h4><span class="header-section-number">3.7.3.1</span> Descriptive data</h4>
+<p>Simple descriptive data of items concerns attributes such as the number of times an item has been used in a test or answered.</p>
+<p>Looking at a test as a whole, descriptive data can include how often a student has attempted a test, when the attempts were, how the student has scored, what the pass rates are, etc. This data comes from assessment service systems.</p>
+<p>You can translate the data into a graphical dashboard for lecturers or students. Lecturers are presented with a summary of the progress of a group of students and the topics that they struggle with. Students will gain insight into their progress and their position relative to their peers. In fact, this is pure management information. The use of data in this way is also known as <em>learning analytics</em>.</p>
+</div>
+<div id="psychometric-data" class="section level4" number="3.7.3.2">
+<h4><span class="header-section-number">3.7.3.2</span> Psychometric data</h4>
+<p>Psychometric data provides you with insight on the level of difficulty of items and the extent to which they discriminate sufficiently between students who have fully internalised the subject matter and those who have not. However, there is a difference depending on whether you are using classical test theory (CTT) or item-response theory (IRT). In this section, we briefly explain both theories.</p>
+<p><strong>Classical Test Theory (CTT)</strong></p>
+<p>The classical test theory assumes that the score in a test will consist of the actual score and an error in the measurement (noise). Statistical operations can be used to calculate the reliability of one test, i.e. in which range the student’s actual score lies with a certain degree of certainty.</p>
+<p>The most important psychometric data for items within the concept of classical test theory are:</p>
+<ul>
+<li><em>Reliability</em>: the extent to which the test as a whole, i.e. all items taken together, are good at discriminating in the extent to which the subject matter has been sufficiently internalised. This is a measure of measurement accuracy and the extent to which the score obtained on a test is not simply due to chance. According to the literature, examinations must have a value of 0.7 or higher and, for example, selection tests must have a value of 0.9 or higher.</li>
+<li><em>p-value</em>: the proportion of correct answers of the student population. The p-value is often referred to as the level of difficulty of an item, but is in fact a level of ease. For open items, an optimum of 0.5 is considered reasonable and for multiple-choice questions with four alternatives, 0.67. The a-value is also worth mentioning here. This is the proportion of students in the group that chose a specific distractor.</li>
+<li><em>Rit value</em>: the correlation between the score obtained by the students on the item and the score on the test as a whole. The Rit value is a measure of the discriminating
+capacity of a question. This is the extent to which the item discriminates between students who have a better or worse command of the subject matter. The Rir value is a somewhat stricter measure of discriminating capacity because the influence of the item itself on discriminating capacity is omitted. According to the literature, the aim is to have a Rit value of at least 0.3. Values below 0.1 are considered poor. Negative values deserve immediate attention. This is where the Rat value comes into its own. This is the measure of the extent to which the choice of an incorrect alternative correlates to the test score.</li>
+</ul>
+<p>It can be valuable to store psychometric data with the items. Some assessment systems even support an automatic update of this data after each student response. This sounds attractive, were it not for the fact that they can only be interpreted for each test. You can only compare them with the data from other tests if the tests are administered under identical conditions. Psychometric data per administered test is useful.</p>
+<div id="item-response-theory-irt" class="section level5" number="3.7.3.2.1">
+<h5><span class="header-section-number">3.7.3.2.1</span> Item response theory (IRT)</h5>
+<p>If you want to know the more absolute level of difficulty and the discriminating capacity of
+items, the item-response theory (IRT) offers a good solution. IRT generates “calibrated items.” In order to generate these, the items are administered among a large sample of a group of students with widely differing knowledge and abilities. The calibration process measures very precisely how items discriminate between students at specific levels of difficulty. Item banks with items developed in this way can be used in so-called adaptive assessment systems. The underlying techniques are so complex that they can only be created when development budgets are generous enough to allow. Examples of this are the teacher training programme arithmetic test (Wiscat), the Rekentuin test (primary education) and the computer-adaptive version of the iVTG (interuniversity progress test in medicine), which is currently being developed. What is also true is that the items must meet stricter requirements than in the case of classical tests, especially in terms of discriminating capacity. <span class="citation">(<a href="#ref-linden2000computerized" role="doc-biblioref">Linden, Linden, and Glas 2000</a>)</span></p>
+<p>In the preparation phase, lecturers sometimes opt for adaptive testing without fully realising that this requires complex and costly IRT techniques. Only opt for this if sufficient project funding will be available.</p>
+<p>The choice of IRT does not have so many consequences for how the item bank is organised. Building an adaptive item bank requires more knowledge and resources to perform the calibration, but the result can be included in an ‘ordinary‘ item bank. Sufficient quantities of items are needed, distributed across the various levels of difficulty, but with more difficult items than items with an average level of difficulty.</p>
+<p>For a more detailed and easier to understand explanation of classical test theory and item-response theory, see <a href="https://www.universiteitleiden.nl/binaries/content/assets/iclon/ho/toetsing-en-toetsanalyse.pdf">De Gruijter, D. N. M. (2008). Toetsing en toetsanalyse</a>.</p>
+</div>
+</div>
+</div>
+<div id="legal-aspects-that-need-addressing-1" class="section level3" number="3.7.4">
+<h3><span class="header-section-number">3.7.4</span> Legal aspects that need addressing</h3>
+<p>If you want to develop an item bank on behalf of your institution, either alone or in collaboration with other institutions, you will have to think about a number of legal aspects. How will you assure ownership of the items and the item bank? What arrangements do you need to make in relation to personal data protection? And in relation to
+forms of collaboration? How will you prevent the distribution of items? This chapter discusses these matters.</p>
+<p>If you are unsure how things work within your institution, ask for more information from your Legal Affairs department or equivalent.</p>
+<p>If you are collaborating on a cross-institutional item bank, making the necessary legal arrangements can be daunting. Be sure to engage an experienced lawyer or legal adviser. Take your time to find someone with the right expertise.</p>
+</div>
+<div id="ownership-of-items-and-item-bank" class="section level3" number="3.7.5">
+<h3><span class="header-section-number">3.7.5</span> Ownership of items and item bank</h3>
+<p>Set out clear arrangements about the rights to the items. This will create assurances that the item bank will remain available to the institution and/or the collaborative venture. Items are protected
+by copyright. Copyright begins when a work is created. According to the Dutch Copyright Act, it is the author’s exclusive right to publish and duplicate the work.</p>
+<p>Be aware of the following aspects:</p>
+<ul>
+<li>For every lecturer with an employment contract, any copyright will belong to the employer if the work is created during the performance of the teaching tasks, unless the parties have agreed otherwise.</li>
+<li>In the case of a collaborative venture: ensure that the items are the property of the collaborative venture. Spell this out explicitly in the collaboration agreement or make the items available under a Creative Commons licence. Please note: if the items are used summatively, making the items available under a CC licence may not be desirable, because you will not want everyone to be able to use the items.</li>
+<li>If one of the partners leaves the collaborative venture, arrange for the ownership of the items to remain with the collaborative venture. Set this out in the collaboration agreement.</li>
+<li>If you use images within your items, you will have to follow the law governing the use of image libraries. The copying and use of any visual material is prohibited. The institution or the collaborative venture will have pay for its images either on a per-use basis or in the form of a subscription. Tip: define an additional step within your
+item development process in which the item reviewer also checks whether any included image or sound recording is permissible.</li>
+<li>Establish whether any database right will be created. The Dutch Databases Act protects against copying or the repeated retrieval of data from a database without the consent of its creator. The data contained in the database is protected as a ‘collection’ by database law. If you make an investment in the database when it is created, you will automatically have the right to use the database. The original investor may also exploit the database commercially.</li>
+<li>Consult with the relevant commercial market operator about how you can regain your content in an exit scenario. What kind of tool does the market operator offer?</li>
+<li>Secure good advice if you involve a commercial operator to ensure that your interests are covered. Do not allow some other party to take the valuable content of the item bank with them if they decide to walk away.</li>
+</ul>
+</div>
+<div id="abuse-of-item-bank-resources" class="section level3" number="3.7.6">
+<h3><span class="header-section-number">3.7.6</span> Abuse of item bank resources</h3>
+<p>Institutions usually want to prevent the items from ending up ‘on the street,’ especially when it comes to summative items. Tests and test items are often posted on www.studeersnel.nl, www.stuvia.nl and www.knoowy.nl. Hold these websites to account by enforcing your copyright claims. They do not own the items and are therefore not allowed to publish them. If you ask them to take the items down, they must comply.</p>
+</div>
+<div id="the-use-of-third-party-resources-in-item-banks" class="section level3" number="3.7.7">
+<h3><span class="header-section-number">3.7.7</span> The use of third-party resources in item banks</h3>
+<p>You cannot simply grab videos and images from elsewhere and include them in your test items. What you can do is covered by laws and regulations. However, there are many ways to legally use existing resources, but otherwise there is the option to recreate images or videos especially for your own item bank. Make sure you allow a budget for this in your project.</p>
+<p>Check whether your own institution or the institution you wish to collaborate with has an agreement with Stichting Pro (Publication and Reproduction Organisation). This body monitors copyright within the education sector and protects the publishing houses that it represents. Stichting Pro monitors the use and reuse of publications of commercial parties by educational institutions. Institutions may choose to pay Stichting Pro an annual buy-out fee. If they choose this option, these institutions will not have to keep records of short pieces of text that are copied.</p>
+<p>If your institution does not pay a buy-out fee, you must explicitly take copyright into account. Sometimes you will have to pay for a resource that you have acquired, but not always. Below, we list the most important rules of thumb for the use of images and sound recordings within your items. The information provided on the website comes from www.auteursrechten.nl.</p>
+<div id="linking-is-always-okay" class="section level4" number="3.7.7.1">
+<h4><span class="header-section-number">3.7.7.1</span> Linking is always okay</h4>
+<p>You can link to images, videos and sound clips on the Internet. Publication on the Internet must, however, be lawful. You stream a video or sound clip directly. Downloading or presenting is prohibited unless the licence allows it.</p>
+<p>For summative tests, streaming can be problematic. Tests often uses resources that must not be publicly accessible. Moreover, you do not want to discover that the resource has disappeared from the Internet at the time of the test.</p>
+</div>
+<div id="licence-for-re-use" class="section level4" number="3.7.7.2">
+<h4><span class="header-section-number">3.7.7.2</span> Licence for re-use</h4>
+<p>Images and audiovisual works with a licence that allows reuse, such as a Creative Commons licence, can be downloaded and presented without problems. Depending on the CC licence used, the options will be broader or more limited. Therefore, always check the meaning of the licence at <a href="https://creativecommons.nl/uitleg/" class="uri">https://creativecommons.nl/uitleg/</a>.</p>
+</div>
+<div id="the-right-to-cite-offers-many-possibilities" class="section level4" number="3.7.7.3">
+<h4><span class="header-section-number">3.7.7.3</span> The right to cite offers many possibilities</h4>
+<p>The right to cite another work makes it possible to use images or audiovisual works. You must ensure the following conditions are met:</p>
+<ul>
+<li>The citation serves to support the content being taught. You may not use them for decorative purposes. You must also not make any changes to the excerpt being cited.</li>
+<li>The size of the quote is in proportion to the purpose for which you are using it. In practice, this means: always use short fragments.</li>
+<li>You can ‘cite‘ images in their entirety.</li>
+<li>You must cite sources.</li>
+</ul>
+</div>
+<div id="images-or-audiovisual-works-from-your-own-library" class="section level4" number="3.7.7.4">
+<h4><span class="header-section-number">3.7.7.4</span> Images or audiovisual works from your own library]</h4>
+<p>Your institution may have concluded user licenses, for example for <a href="https://www.academia.nl">Academia</a>, which allow the use of images and audiovisual works within the education process of your institution without you having to request separate consent and paying a fee for each use. Check within your institution if any such licence exists.</p>
+</div>
+<div id="entire-audiovisual-works" class="section level4" number="3.7.7.5">
+<h4><span class="header-section-number">3.7.7.5</span> Entire audiovisual works</h4>
+<p>You may play or show an entire audiovisual work for free without permission, provided that:</p>
+<ul>
+<li>playback serves an educational purpose during a lesson or class and is part of the teaching programme.</li>
+<li>playback takes place physically within the educational institution.</li>
+<li>playback takes place in the context of not-for-profit education.</li>
+<li>A copy of the work may not be included in an assessment application so that students can play it at home. You must ask permission from the creator for this.</li>
+</ul>
+</div>
+<div id="sharing-audiovisual-works" class="section level4" number="3.7.7.6">
+<h4><span class="header-section-number">3.7.7.6</span> Sharing audiovisual works</h4>
+<p>You may include parts of audiovisual works in a test, provided that:</p>
+<ul>
+<li>presentation or playback is only for explanatory purposes in the case of non-commercial education. It is therefore supplementary and not a substitute for teaching.</li>
+<li>the presentation takes place in a confined environment, to which only students have access. If students have to log in for the test, you will already meet this condition.</li>
+<li>equitable remuneration is paid to the rights holders. You must contact them about this.</li>
+</ul>
+<p>The presentation does not have to take place physically in the classroom. Students may view or play the works at home.</p>
+</div>
+<div id="attribution" class="section level4" number="3.7.7.7">
+<h4><span class="header-section-number">3.7.7.7</span> Attribution</h4>
+<p>If you use third-party resources for which you have to pay, you must contact the rights holders. Even if you will be recreating a resource. Contact can be made through the following organisations:</p>
+<ul>
+<li><a href="https://www.videma.nl">VIDEMA</a></li>
+<li><a href="http://www.bumastemra.nl">BUMA/STEMRA</a></li>
+<li><a href="http://www.pictoright.nl/english/">PICTORIGHT</a></li>
+</ul>
+<p><strong>More information:</strong></p>
+<ul>
+<li><a href="https://www.auteursrechten.nl/en" class="uri">https://www.auteursrechten.nl/en</a></li>
+<li><a href="http://www.onderwijsenauteursrecht.nl/" class="uri">http://www.onderwijsenauteursrecht.nl/</a></li>
+<li><a href="https://IUSmentis.com" class="uri">https://IUSmentis.com</a></li>
+<li><a href="https://creativecommons.nl/" class="uri">https://creativecommons.nl/</a></li>
+</ul>
+</div>
+</div>
+<div id="personal-data-protection" class="section level3" number="3.7.8">
+<h3><span class="header-section-number">3.7.8</span> Personal data protection</h3>
+<p>Under the General Data Protection Regulation (GDPR), you need data processing agreements to safeguard the privacy of lecturers, employees and students.</p>
+<p>As soon as employees or students create an account for, for example, the assessment application and the institution or supplier will have access to this personal data, a data processing agreement must be signed between the institution and the supplier.</p>
+<p>Be aware of the following aspects:</p>
+<ul>
+<li>The use of software-as-a-service (SAAS) requires additional actions. The institution or the collaborative venture must make sure a data processing agreement is signed with the supplier. When logging in to the application, it will often say: ‘Terms and conditions of use apply.’ The users can the decide to accept or decline this, which guarantees the protection of privacy. The institution or the collaborative venture itself must take sufficient appropriate measures. It is imperative that arrangements with the supplier are set out in a contract and employees must know where they stand. If an application is hosted on the institution’s own servers, the institution or the collaborative venture itself will bear responsibility for the system and the data. In that case, do not forget to clearly communicate the arrangements to employees.</li>
+<li>Read more about the General Data Protection Regulation on the dedicated SURF page <a href="https://www.surf.nl/en/general-data-protection-regulation-gdpr">General Data Protection Regulation (GDPR)</a>.</li>
+</ul>
+</div>
+<div id="legal-forms-for-collaborative-ventures" class="section level3" number="3.7.9">
+<h3><span class="header-section-number">3.7.9</span> Legal forms for collaborative ventures</h3>
+<p>If you are planning to develop an item bank with other institutions, decide on the legal form and the relationships between the parties. Also decide who will deliver what and when. For example, you can set this out in the articles of association and/or a collaboration agreement.</p>
+
+</div>
+</div>
+</div>
+<h3> Literature</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-draaijer2015practical" class="csl-entry">
+Draaijer, S., and S. Klinkenberg. 2015. <span>“A Practical Procedure for the Construction and Reliability Analysis of Fixed Length Tests with Random Drawn Test Items.”</span> In <em>Computer Assisted Assessment: Research into e-Assessment</em>, edited by E. Ras and D. Joosten-Ten Brinke, 47–60. Spinger. <a href="https://doi.org/10.1007/978-3-319-27704-2_6">https://doi.org/10.1007/978-3-319-27704-2_6</a>.
+</div>
+<div id="ref-fattoh2014automatic" class="csl-entry">
+Fattoh, Ibrahim Eldesoky. 2014. <span>“Automatic Multiple Choice Question Generation System for Semantic Attributes Using String Similarity Measures.”</span> <em>Computer Engineering and Intelligent Systems</em> 5 (8): 66–73.
+</div>
+<div id="ref-a061ccfdc1fe4c00bf328e9808c0cb6d" class="csl-entry">
+Joosten-ten Brinke, D., and S. Draaijer. 2014. <span>“Kwaliteit van Toetsen.”</span> In <em>Kwaliteit van Toetsing Onder de Loep</em>, edited by M. Sluijsmans, D. Joosten-ten Brinke, and T. van Schilt-Mol, 37–54. Garant.
+</div>
+<div id="ref-linden2000computerized" class="csl-entry">
+Linden, Wim J, Wim J van der Linden, and Cees AW Glas. 2000. <em>Computerized Adaptive Testing: Theory and Practice</em>. Springer.
+</div>
+<div id="ref-van2017toetsen" class="csl-entry">
+Van Berkel, Henk, Anneke Bax, and Desirée Joosten-ten Brinke. 2017. <em>Toetsen in Het Hoger Onderwijs</em>. Springer.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="step-by-step-plan-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="appendices.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["handbook-item-banking.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
