@@ -78,10 +78,10 @@ In the 1930s, standardised tests and rudimentary databases of questions were sta
 When we refer to a digital assessment system, we mean the software that facilitates the digital assessment process. We can distinguish between a number of core components: authoring environment, item bank, playback environment and analysis tool. We will discuss these components based on the assessment cycle. Not all steps in the assessment cycle are supported by digital assessment systems. Figure \@ref(fig:toetscyclus) shows how the components of a digital test system fit in with the assessment cycle.  
 
 ```{r toetscyclus, echo=FALSE, fig.cap="Components of digital assessment systems depicted in the assessment cycle.", out.width="60%"}
-knitr::include_graphics("images/ToetsCyclus.svg")
+knitr::include_graphics("images/ToetsCyclus_en.svg")
 ```
 
-The *item bank* is the central component in which the individual items are stored. The editing and playback of the items take place in other systems, which then return the results to the item bank. The item bank plays a role in the following components of the assessment cycle:  
+The **item bank** is the central component in which the individual items are stored. The editing and playback of the items take place in other systems, which then return the results to the item bank. The item bank plays a role in the following components of the assessment cycle:  
 
 The **design** of the test (also known as the test specification) relates to aspects such as the purpose of the test, the components to be assessed, the choice of formative or summative assessment and the ‘assessment method’. This means that no items are yet created in the design.  
 
@@ -89,7 +89,7 @@ A test is compiled using a collection of items. A specification table is usually
 
 The **development** (construction) of the items is performed in the assessment system's authoring environment. In the case of closed questions, the answers will be included; sample answers may sometimes also be included for open questions.  
 
-Assessment software offers a playback environment for online ** test administration**. The playback environment checks the student's identity by means of a login procedure, presents the student with a test and stores the student's answers.  
+Assessment software offers a playback environment for online **test administration**. The playback environment checks the student's identity by means of a login procedure, presents the student with a test and stores the student's answers.  
 
 The **marking** of the test will depend on the selected question types. Answers to closed questions are usually assessed and scored without human intervention. The item developer (the lecturer) will have included the correct answer in advance. Open questions must be marked, with systems allowing, for example, ‘blind’ marking and ‘question-by-question’ marking, possibly aided by supporting software.  
 
