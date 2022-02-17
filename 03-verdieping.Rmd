@@ -454,17 +454,21 @@ Often, lecturers want to be able to stipulate that a certain question within an 
 
 ::::
 
+:::{.tip}
+
 **Tip**
 
 It makes sense to assign each item in an item bank a unique code, which itself contains the hierarchical or metadata structure. Items can sometimes be moved accidentally. After a test is administered and only raw data remains, the codes will make it possible to retrieve individual items from the bank. The unique technical ID of an item at the system level is often meaningless.
 
-An example of this code: <leerdoel><topic><subtopic><niveau><unique no.>
+An example of this code: `<learninggoal><topic><subtopic><level><unique no.>`
 
 B2_AF12-3_RegcoefT is an item from the Bachelor, second year about Chapter 12 of the textbook by Agresti and Finlay on the subject of the regression coefficient.
 
 However, decoding this requires painstaking work by those who enter and check items. It underlines the importance of findability and the use of too many or too few tags.### Feedback and question types
 
 Depending on the purpose of your item bank, you will be making a choice about the type of items and the nature of the feedback on the items.
+
+::::
 
 #### Feedback
 
